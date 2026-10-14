@@ -1,0 +1,113 @@
+{
+  "interval_top_basis": "generated_known_intervals",
+  "global_order_valid": true,
+  "data_provider": "deterministic thickness-varying synthetic control, seed 123",
+  "coordinate_units": "m",
+  "sources": {},
+  "dataset": "SyntheticControl",
+  "source_rows": 315,
+  "boreholes": 45,
+  "labels": [
+    "class1",
+    "class2",
+    "class3",
+    "class4",
+    "class5",
+    "class6",
+    "class7"
+  ],
+  "horizons": [
+    "h1",
+    "h2",
+    "h3",
+    "h4",
+    "h5",
+    "h6",
+    "h7"
+  ],
+  "step": 0.25,
+  "boundary_rows": 315,
+  "excluded_terminal_boundaries": 0,
+  "labelled_points": 48142,
+  "grid_points": 48142,
+  "unobserved_points": 0,
+  "ambiguous_points": 0,
+  "sampled_labels": [
+    "class1",
+    "class2",
+    "class3",
+    "class4",
+    "class5",
+    "class6",
+    "class7"
+  ],
+  "protocol": "2.0",
+  "cv": "group",
+  "parameters": {
+    "IDW": {
+      "power": 2
+    },
+    "RBF": {
+      "function": "multiquadric",
+      "smooth": 0.5,
+      "epsilon": "training_median_nonzero_distance"
+    },
+    "OK": {
+      "variogram_model": "linear",
+      "parameters": "fitted_on_training_horizon"
+    },
+    "RandomForest": {
+      "n_estimators": 200,
+      "max_depth": 20,
+      "max_features": "sqrt"
+    },
+    "XGBoost": {
+      "n_estimators": 200,
+      "max_depth": 8,
+      "learning_rate": 0.1,
+      "tree_method": "hist"
+    },
+    "LightGBM": {
+      "n_estimators": 200,
+      "max_depth": 15,
+      "num_leaves": 31,
+      "learning_rate": 0.1
+    },
+    "MLP": {
+      "hidden": 128,
+      "residual_blocks": 2,
+      "dropout": 0.1,
+      "max_epochs": 120,
+      "patience": 15,
+      "min_delta": 0.0001,
+      "batch_size": 256,
+      "learning_rate": 0.001,
+      "weight_decay": 0.0001,
+      "selection_loss": "unweighted_MSE_or_cross_entropy",
+      "outer_refit": true,
+      "schedule": "constant_learning_rate"
+    }
+  },
+  "interface_elevation_span": 506.62463246228106,
+  "python": "3.12.3",
+  "environment": {
+    "numpy": "1.26.4",
+    "pandas": "3.0.5",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.9.0",
+    "torch": "2.2.1",
+    "pykrige": "1.7.3",
+    "lightgbm": "4.6.0",
+    "openpyxl": "3.1.5",
+    "xgboost": "3.0.2"
+  },
+  "code_sha256": {
+    "__init__.py": "06795f53ca43542125b71fc63b99369e9e6fef20c7c9b592922b0157c7c618ba",
+    "analyze.py": "03f590d0c7729b1455fab30ce2a65b4532c6836bc3f23ec6d3d3831ec77812f1",
+    "data.py": "cce836a052170ff519f0bf39602dbcd3ef08886f96b6ccf2f5594fcdeee1014f",
+    "features.py": "060656701cf5367d191badc508e2ade360d4b9f3f75a1a0e677693c473242998",
+    "metrics.py": "cbec58299765c33588c69ee128b6c76a3d76c5c7bfe0fc8219233807cea6ab89",
+    "models.py": "2a05e322a97546922bca1470c7f8486d2d7d01d3f27f2ebf50cc2fb93a1441f8",
+    "run.py": "e8876524e2f38a1a15f8332dff041fea15f4f11fecf4d3e480680d3d3b0c4054"
+  }
+}

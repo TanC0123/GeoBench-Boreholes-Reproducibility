@@ -1,0 +1,801 @@
+{
+  "checks": [
+    {
+      "dataset": "Zhengzhou",
+      "cv": "group",
+      "prediction_files_verified": 100,
+      "identical_model_support": true,
+      "fold_and_donor_separation": true,
+      "stored_scores_independently_recomputed": true,
+      "max_float32_csv_score_roundtrip_difference": 2.8368484805696426e-07,
+      "neural_refits_verified": 20,
+      "selected_epochs": [
+        {
+          "track": 1,
+          "mode": "augmented",
+          "fold": 0,
+          "epoch": 61
+        },
+        {
+          "track": 1,
+          "mode": "augmented",
+          "fold": 1,
+          "epoch": 32
+        },
+        {
+          "track": 1,
+          "mode": "augmented",
+          "fold": 2,
+          "epoch": 23
+        },
+        {
+          "track": 1,
+          "mode": "augmented",
+          "fold": 3,
+          "epoch": 15
+        },
+        {
+          "track": 1,
+          "mode": "augmented",
+          "fold": 4,
+          "epoch": 26
+        },
+        {
+          "track": 1,
+          "mode": "raw",
+          "fold": 0,
+          "epoch": 24
+        },
+        {
+          "track": 1,
+          "mode": "raw",
+          "fold": 1,
+          "epoch": 35
+        },
+        {
+          "track": 1,
+          "mode": "raw",
+          "fold": 2,
+          "epoch": 34
+        },
+        {
+          "track": 1,
+          "mode": "raw",
+          "fold": 3,
+          "epoch": 13
+        },
+        {
+          "track": 1,
+          "mode": "raw",
+          "fold": 4,
+          "epoch": 36
+        },
+        {
+          "track": 2,
+          "mode": "augmented",
+          "fold": 0,
+          "epoch": 1
+        },
+        {
+          "track": 2,
+          "mode": "augmented",
+          "fold": 1,
+          "epoch": 1
+        },
+        {
+          "track": 2,
+          "mode": "augmented",
+          "fold": 2,
+          "epoch": 1
+        },
+        {
+          "track": 2,
+          "mode": "augmented",
+          "fold": 3,
+          "epoch": 1
+        },
+        {
+          "track": 2,
+          "mode": "augmented",
+          "fold": 4,
+          "epoch": 1
+        },
+        {
+          "track": 2,
+          "mode": "raw",
+          "fold": 0,
+          "epoch": 2
+        },
+        {
+          "track": 2,
+          "mode": "raw",
+          "fold": 1,
+          "epoch": 1
+        },
+        {
+          "track": 2,
+          "mode": "raw",
+          "fold": 2,
+          "epoch": 7
+        },
+        {
+          "track": 2,
+          "mode": "raw",
+          "fold": 3,
+          "epoch": 2
+        },
+        {
+          "track": 2,
+          "mode": "raw",
+          "fold": 4,
+          "epoch": 3
+        }
+      ]
+    },
+    {
+      "dataset": "Zhengzhou",
+      "cv": "spatial",
+      "prediction_files_verified": 100,
+      "identical_model_support": true,
+      "fold_and_donor_separation": true,
+      "stored_scores_independently_recomputed": true,
+      "max_float32_csv_score_roundtrip_difference": 2.6960688614963146e-07,
+      "neural_refits_verified": 20,
+      "selected_epochs": [
+        {
+          "track": 1,
+          "mode": "augmented",
+          "fold": 0,
+          "epoch": 51
+        },
+        {
+          "track": 1,
+          "mode": "augmented",
+          "fold": 1,
+          "epoch": 28
+        },
+        {
+          "track": 1,
+          "mode": "augmented",
+          "fold": 2,
+          "epoch": 44
+        },
+        {
+          "track": 1,
+          "mode": "augmented",
+          "fold": 3,
+          "epoch": 18
+        },
+        {
+          "track": 1,
+          "mode": "augmented",
+          "fold": 4,
+          "epoch": 40
+        },
+        {
+          "track": 1,
+          "mode": "raw",
+          "fold": 0,
+          "epoch": 57
+        },
+        {
+          "track": 1,
+          "mode": "raw",
+          "fold": 1,
+          "epoch": 29
+        },
+        {
+          "track": 1,
+          "mode": "raw",
+          "fold": 2,
+          "epoch": 25
+        },
+        {
+          "track": 1,
+          "mode": "raw",
+          "fold": 3,
+          "epoch": 15
+        },
+        {
+          "track": 1,
+          "mode": "raw",
+          "fold": 4,
+          "epoch": 72
+        },
+        {
+          "track": 2,
+          "mode": "augmented",
+          "fold": 0,
+          "epoch": 3
+        },
+        {
+          "track": 2,
+          "mode": "augmented",
+          "fold": 1,
+          "epoch": 2
+        },
+        {
+          "track": 2,
+          "mode": "augmented",
+          "fold": 2,
+          "epoch": 2
+        },
+        {
+          "track": 2,
+          "mode": "augmented",
+          "fold": 3,
+          "epoch": 2
+        },
+        {
+          "track": 2,
+          "mode": "augmented",
+          "fold": 4,
+          "epoch": 2
+        },
+        {
+          "track": 2,
+          "mode": "raw",
+          "fold": 0,
+          "epoch": 1
+        },
+        {
+          "track": 2,
+          "mode": "raw",
+          "fold": 1,
+          "epoch": 2
+        },
+        {
+          "track": 2,
+          "mode": "raw",
+          "fold": 2,
+          "epoch": 2
+        },
+        {
+          "track": 2,
+          "mode": "raw",
+          "fold": 3,
+          "epoch": 1
+        },
+        {
+          "track": 2,
+          "mode": "raw",
+          "fold": 4,
+          "epoch": 4
+        }
+      ]
+    },
+    {
+      "dataset": "Kimberlina",
+      "cv": "group",
+      "prediction_files_verified": 100,
+      "identical_model_support": true,
+      "fold_and_donor_separation": true,
+      "stored_scores_independently_recomputed": true,
+      "max_float32_csv_score_roundtrip_difference": 6.184484504956345e-06,
+      "neural_refits_verified": 20,
+      "selected_epochs": [
+        {
+          "track": 1,
+          "mode": "augmented",
+          "fold": 0,
+          "epoch": 75
+        },
+        {
+          "track": 1,
+          "mode": "augmented",
+          "fold": 1,
+          "epoch": 41
+        },
+        {
+          "track": 1,
+          "mode": "augmented",
+          "fold": 2,
+          "epoch": 34
+        },
+        {
+          "track": 1,
+          "mode": "augmented",
+          "fold": 3,
+          "epoch": 20
+        },
+        {
+          "track": 1,
+          "mode": "augmented",
+          "fold": 4,
+          "epoch": 30
+        },
+        {
+          "track": 1,
+          "mode": "raw",
+          "fold": 0,
+          "epoch": 62
+        },
+        {
+          "track": 1,
+          "mode": "raw",
+          "fold": 1,
+          "epoch": 32
+        },
+        {
+          "track": 1,
+          "mode": "raw",
+          "fold": 2,
+          "epoch": 117
+        },
+        {
+          "track": 1,
+          "mode": "raw",
+          "fold": 3,
+          "epoch": 38
+        },
+        {
+          "track": 1,
+          "mode": "raw",
+          "fold": 4,
+          "epoch": 39
+        },
+        {
+          "track": 2,
+          "mode": "augmented",
+          "fold": 0,
+          "epoch": 1
+        },
+        {
+          "track": 2,
+          "mode": "augmented",
+          "fold": 1,
+          "epoch": 1
+        },
+        {
+          "track": 2,
+          "mode": "augmented",
+          "fold": 2,
+          "epoch": 3
+        },
+        {
+          "track": 2,
+          "mode": "augmented",
+          "fold": 3,
+          "epoch": 1
+        },
+        {
+          "track": 2,
+          "mode": "augmented",
+          "fold": 4,
+          "epoch": 1
+        },
+        {
+          "track": 2,
+          "mode": "raw",
+          "fold": 0,
+          "epoch": 26
+        },
+        {
+          "track": 2,
+          "mode": "raw",
+          "fold": 1,
+          "epoch": 14
+        },
+        {
+          "track": 2,
+          "mode": "raw",
+          "fold": 2,
+          "epoch": 16
+        },
+        {
+          "track": 2,
+          "mode": "raw",
+          "fold": 3,
+          "epoch": 18
+        },
+        {
+          "track": 2,
+          "mode": "raw",
+          "fold": 4,
+          "epoch": 16
+        }
+      ]
+    },
+    {
+      "dataset": "Kimberlina",
+      "cv": "spatial",
+      "prediction_files_verified": 100,
+      "identical_model_support": true,
+      "fold_and_donor_separation": true,
+      "stored_scores_independently_recomputed": true,
+      "max_float32_csv_score_roundtrip_difference": 6.115140763540694e-06,
+      "neural_refits_verified": 20,
+      "selected_epochs": [
+        {
+          "track": 1,
+          "mode": "augmented",
+          "fold": 0,
+          "epoch": 15
+        },
+        {
+          "track": 1,
+          "mode": "augmented",
+          "fold": 1,
+          "epoch": 19
+        },
+        {
+          "track": 1,
+          "mode": "augmented",
+          "fold": 2,
+          "epoch": 12
+        },
+        {
+          "track": 1,
+          "mode": "augmented",
+          "fold": 3,
+          "epoch": 57
+        },
+        {
+          "track": 1,
+          "mode": "augmented",
+          "fold": 4,
+          "epoch": 42
+        },
+        {
+          "track": 1,
+          "mode": "raw",
+          "fold": 0,
+          "epoch": 51
+        },
+        {
+          "track": 1,
+          "mode": "raw",
+          "fold": 1,
+          "epoch": 42
+        },
+        {
+          "track": 1,
+          "mode": "raw",
+          "fold": 2,
+          "epoch": 67
+        },
+        {
+          "track": 1,
+          "mode": "raw",
+          "fold": 3,
+          "epoch": 55
+        },
+        {
+          "track": 1,
+          "mode": "raw",
+          "fold": 4,
+          "epoch": 40
+        },
+        {
+          "track": 2,
+          "mode": "augmented",
+          "fold": 0,
+          "epoch": 3
+        },
+        {
+          "track": 2,
+          "mode": "augmented",
+          "fold": 1,
+          "epoch": 2
+        },
+        {
+          "track": 2,
+          "mode": "augmented",
+          "fold": 2,
+          "epoch": 2
+        },
+        {
+          "track": 2,
+          "mode": "augmented",
+          "fold": 3,
+          "epoch": 2
+        },
+        {
+          "track": 2,
+          "mode": "augmented",
+          "fold": 4,
+          "epoch": 1
+        },
+        {
+          "track": 2,
+          "mode": "raw",
+          "fold": 0,
+          "epoch": 15
+        },
+        {
+          "track": 2,
+          "mode": "raw",
+          "fold": 1,
+          "epoch": 11
+        },
+        {
+          "track": 2,
+          "mode": "raw",
+          "fold": 2,
+          "epoch": 28
+        },
+        {
+          "track": 2,
+          "mode": "raw",
+          "fold": 3,
+          "epoch": 33
+        },
+        {
+          "track": 2,
+          "mode": "raw",
+          "fold": 4,
+          "epoch": 1
+        }
+      ]
+    },
+    {
+      "dataset": "SyntheticControl",
+      "cv": "group",
+      "prediction_files_verified": 100,
+      "identical_model_support": true,
+      "fold_and_donor_separation": true,
+      "stored_scores_independently_recomputed": true,
+      "max_float32_csv_score_roundtrip_difference": 8.968274434195678e-07,
+      "neural_refits_verified": 20,
+      "selected_epochs": [
+        {
+          "track": 1,
+          "mode": "augmented",
+          "fold": 0,
+          "epoch": 74
+        },
+        {
+          "track": 1,
+          "mode": "augmented",
+          "fold": 1,
+          "epoch": 50
+        },
+        {
+          "track": 1,
+          "mode": "augmented",
+          "fold": 2,
+          "epoch": 83
+        },
+        {
+          "track": 1,
+          "mode": "augmented",
+          "fold": 3,
+          "epoch": 59
+        },
+        {
+          "track": 1,
+          "mode": "augmented",
+          "fold": 4,
+          "epoch": 73
+        },
+        {
+          "track": 1,
+          "mode": "raw",
+          "fold": 0,
+          "epoch": 63
+        },
+        {
+          "track": 1,
+          "mode": "raw",
+          "fold": 1,
+          "epoch": 77
+        },
+        {
+          "track": 1,
+          "mode": "raw",
+          "fold": 2,
+          "epoch": 69
+        },
+        {
+          "track": 1,
+          "mode": "raw",
+          "fold": 3,
+          "epoch": 69
+        },
+        {
+          "track": 1,
+          "mode": "raw",
+          "fold": 4,
+          "epoch": 68
+        },
+        {
+          "track": 2,
+          "mode": "augmented",
+          "fold": 0,
+          "epoch": 16
+        },
+        {
+          "track": 2,
+          "mode": "augmented",
+          "fold": 1,
+          "epoch": 18
+        },
+        {
+          "track": 2,
+          "mode": "augmented",
+          "fold": 2,
+          "epoch": 29
+        },
+        {
+          "track": 2,
+          "mode": "augmented",
+          "fold": 3,
+          "epoch": 14
+        },
+        {
+          "track": 2,
+          "mode": "augmented",
+          "fold": 4,
+          "epoch": 40
+        },
+        {
+          "track": 2,
+          "mode": "raw",
+          "fold": 0,
+          "epoch": 63
+        },
+        {
+          "track": 2,
+          "mode": "raw",
+          "fold": 1,
+          "epoch": 54
+        },
+        {
+          "track": 2,
+          "mode": "raw",
+          "fold": 2,
+          "epoch": 46
+        },
+        {
+          "track": 2,
+          "mode": "raw",
+          "fold": 3,
+          "epoch": 24
+        },
+        {
+          "track": 2,
+          "mode": "raw",
+          "fold": 4,
+          "epoch": 30
+        }
+      ]
+    },
+    {
+      "dataset": "SyntheticControl",
+      "cv": "spatial",
+      "prediction_files_verified": 100,
+      "identical_model_support": true,
+      "fold_and_donor_separation": true,
+      "stored_scores_independently_recomputed": true,
+      "max_float32_csv_score_roundtrip_difference": 1.3253718424977023e-06,
+      "neural_refits_verified": 20,
+      "selected_epochs": [
+        {
+          "track": 1,
+          "mode": "augmented",
+          "fold": 0,
+          "epoch": 50
+        },
+        {
+          "track": 1,
+          "mode": "augmented",
+          "fold": 1,
+          "epoch": 52
+        },
+        {
+          "track": 1,
+          "mode": "augmented",
+          "fold": 2,
+          "epoch": 53
+        },
+        {
+          "track": 1,
+          "mode": "augmented",
+          "fold": 3,
+          "epoch": 97
+        },
+        {
+          "track": 1,
+          "mode": "augmented",
+          "fold": 4,
+          "epoch": 48
+        },
+        {
+          "track": 1,
+          "mode": "raw",
+          "fold": 0,
+          "epoch": 35
+        },
+        {
+          "track": 1,
+          "mode": "raw",
+          "fold": 1,
+          "epoch": 56
+        },
+        {
+          "track": 1,
+          "mode": "raw",
+          "fold": 2,
+          "epoch": 37
+        },
+        {
+          "track": 1,
+          "mode": "raw",
+          "fold": 3,
+          "epoch": 93
+        },
+        {
+          "track": 1,
+          "mode": "raw",
+          "fold": 4,
+          "epoch": 68
+        },
+        {
+          "track": 2,
+          "mode": "augmented",
+          "fold": 0,
+          "epoch": 18
+        },
+        {
+          "track": 2,
+          "mode": "augmented",
+          "fold": 1,
+          "epoch": 10
+        },
+        {
+          "track": 2,
+          "mode": "augmented",
+          "fold": 2,
+          "epoch": 17
+        },
+        {
+          "track": 2,
+          "mode": "augmented",
+          "fold": 3,
+          "epoch": 21
+        },
+        {
+          "track": 2,
+          "mode": "augmented",
+          "fold": 4,
+          "epoch": 27
+        },
+        {
+          "track": 2,
+          "mode": "raw",
+          "fold": 0,
+          "epoch": 47
+        },
+        {
+          "track": 2,
+          "mode": "raw",
+          "fold": 1,
+          "epoch": 26
+        },
+        {
+          "track": 2,
+          "mode": "raw",
+          "fold": 2,
+          "epoch": 24
+        },
+        {
+          "track": 2,
+          "mode": "raw",
+          "fold": 3,
+          "epoch": 34
+        },
+        {
+          "track": 2,
+          "mode": "raw",
+          "fold": 4,
+          "epoch": 85
+        }
+      ]
+    }
+  ],
+  "files_verified": 600,
+  "bootstrap_draws": 10000,
+  "spatial_bootstrap_enumeration": 3125,
+  "interval_interpretation": "conditional on fitted OOF models; no population or algorithm-training confidence guarantee",
+  "block_swap_interpretation": "exploratory exchangeability sensitivity, not established spatially calibrated significance"
+}

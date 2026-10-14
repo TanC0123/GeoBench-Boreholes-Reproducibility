@@ -1,0 +1,111 @@
+{
+  "prediction_files": 80,
+  "neural_outer_refits": 30,
+  "model_seed_configurations": 16,
+  "shared_support_verified": true,
+  "fold_separation_verified": true,
+  "scores_recomputed": true,
+  "no_best_seed_selection": true,
+  "metadata": {
+    "dataset": "FORCE2020_observed_points",
+    "archive_sha256": "e996c8466f2d0dc7116daa71485cc90c31fcfac6345a5bb33165026478b642e9",
+    "source_doi": "10.5281/zenodo.4351156",
+    "raw_rows": 1170511,
+    "raw_wells": 98,
+    "rows_with_coordinate_and_label_support": 1159736,
+    "excluded_rows": 10775,
+    "sampled_rows": 35419,
+    "wells": 98,
+    "labels": [
+      "30000",
+      "65000",
+      "65030",
+      "70000",
+      "70032",
+      "74000",
+      "80000",
+      "86000",
+      "88000",
+      "90000",
+      "93000",
+      "99000"
+    ],
+    "sampling_step_m": 5.0,
+    "sampling": "nearest observed row to each measured-depth bin centre; no label interpolation",
+    "features": [
+      "x",
+      "y",
+      "z"
+    ],
+    "excluded_predictors": [
+      "well identity",
+      "lithology confidence",
+      "logs",
+      "formation",
+      "group"
+    ],
+    "track1_applicable": false,
+    "interval_augmentation_applicable": false,
+    "geometry": "native 3D point coordinates; family mean of shallowest complete-coordinate sample positions used only for splitting",
+    "seed_offsets": [
+      0,
+      100,
+      200
+    ],
+    "parameters": {
+      "IDW": {
+        "power": 2
+      },
+      "RBF": {
+        "function": "multiquadric",
+        "smooth": 0.5,
+        "epsilon": "training_median_nonzero_distance"
+      },
+      "OK": {
+        "variogram_model": "linear",
+        "parameters": "fitted_on_training_horizon"
+      },
+      "RandomForest": {
+        "n_estimators": 200,
+        "max_depth": 20,
+        "max_features": "sqrt"
+      },
+      "XGBoost": {
+        "n_estimators": 200,
+        "max_depth": 8,
+        "learning_rate": 0.1,
+        "tree_method": "hist"
+      },
+      "LightGBM": {
+        "n_estimators": 200,
+        "max_depth": 15,
+        "num_leaves": 31,
+        "learning_rate": 0.1
+      },
+      "MLP": {
+        "hidden": 128,
+        "residual_blocks": 2,
+        "dropout": 0.1,
+        "max_epochs": 120,
+        "patience": 15,
+        "min_delta": 0.0001,
+        "batch_size": 256,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "selection_loss": "unweighted_MSE_or_cross_entropy",
+        "outer_refit": true,
+        "schedule": "constant_learning_rate"
+      }
+    },
+    "points_sha256": "b829edaa0211b3886a6c02278385a3b55089d441756a963452ad8f32841670bf",
+    "code_sha256": {
+      "force_external.py": "d1636966a940faaeb5dba0b2705811775e0dfba6e68e47aad91c00d7db901a16",
+      "models.py": "2a05e322a97546922bca1470c7f8486d2d7d01d3f27f2ebf50cc2fb93a1441f8",
+      "metrics.py": "cbec58299765c33588c69ee128b6c76a3d76c5c7bfe0fc8219233807cea6ab89",
+      "run.py": "e8876524e2f38a1a15f8332dff041fea15f4f11fecf4d3e480680d3d3b0c4054"
+    },
+    "scoring_groups": 97,
+    "grouping": "source numeric well-family prefix; sidetracks grouped in inner/outer splits and scoring",
+    "shared_family": "34/5-1 A and 34/5-1 S"
+  }
+}

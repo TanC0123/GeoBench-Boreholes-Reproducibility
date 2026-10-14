@@ -1,0 +1,141 @@
+{
+  "interval_top_basis": "explicit_source_top",
+  "global_order_valid": false,
+  "data_provider": "Software Underground Subsurface public test table; original field provenance not independently verified",
+  "coordinate_units": "source_native_units; historical_metre_interpretation_not_independently_verified",
+  "sources": {
+    "data/kim_ready.csv": "a91445cb960526398e25d8c1d2ab3b3a32f7d35feaf33e18887629b242256ab6"
+  },
+  "dataset": "Kimberlina",
+  "source_rows": 583,
+  "boreholes": 69,
+  "labels": [
+    "basement",
+    "chanac",
+    "cretaceous",
+    "eocene",
+    "etchegoin",
+    "freeman_jewett",
+    "fruitvale",
+    "macoma",
+    "mclure",
+    "olcese",
+    "round_mountain",
+    "santa_margarita",
+    "vedder"
+  ],
+  "horizons": [
+    "basement",
+    "chanac",
+    "cretaceous",
+    "eocene",
+    "etchegoin",
+    "freeman_jewett",
+    "fruitvale",
+    "macoma",
+    "mclure",
+    "olcese",
+    "round_mountain",
+    "santa_margarita",
+    "vedder"
+  ],
+  "regression_sensitivity": "Documented upstream repaired contacts excluded from boundary donors and regression; interval labels unchanged.",
+  "step": 5.0,
+  "boundary_rows": 497,
+  "excluded_terminal_boundaries": 69,
+  "labelled_points": 30336,
+  "grid_points": 40452,
+  "unobserved_points": 10110,
+  "ambiguous_points": 6,
+  "sampled_labels": [
+    "basement",
+    "chanac",
+    "cretaceous",
+    "etchegoin",
+    "freeman_jewett",
+    "fruitvale",
+    "macoma",
+    "mclure",
+    "olcese",
+    "round_mountain",
+    "santa_margarita",
+    "vedder"
+  ],
+  "excluded_upstream_repaired_nonterminal_boundaries": 17,
+  "protocol": "2.0",
+  "cv": "group",
+  "parameters": {
+    "IDW": {
+      "power": 2
+    },
+    "RBF": {
+      "function": "multiquadric",
+      "smooth": 0.5,
+      "epsilon": "training_median_nonzero_distance"
+    },
+    "OK": {
+      "variogram_model": "linear",
+      "parameters": "fitted_on_training_horizon"
+    },
+    "RandomForest": {
+      "n_estimators": 200,
+      "max_depth": 20,
+      "max_features": "sqrt"
+    },
+    "XGBoost": {
+      "n_estimators": 200,
+      "max_depth": 8,
+      "learning_rate": 0.1,
+      "tree_method": "hist"
+    },
+    "LightGBM": {
+      "n_estimators": 200,
+      "max_depth": 15,
+      "num_leaves": 31,
+      "learning_rate": 0.1
+    },
+    "MLP": {
+      "hidden": 128,
+      "residual_blocks": 2,
+      "dropout": 0.1,
+      "max_epochs": 120,
+      "patience": 15,
+      "min_delta": 0.0001,
+      "batch_size": 256,
+      "learning_rate": 0.001,
+      "weight_decay": 0.0001,
+      "selection_loss": "unweighted_MSE_or_cross_entropy",
+      "outer_refit": true,
+      "schedule": "constant_learning_rate"
+    }
+  },
+  "interface_elevation_span": 4329.785148700001,
+  "python": "3.12.3",
+  "environment": {
+    "numpy": "1.26.4",
+    "pandas": "3.0.5",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.9.0",
+    "torch": "2.2.1",
+    "pykrige": "1.7.3",
+    "lightgbm": "4.6.0",
+    "openpyxl": "3.1.5",
+    "xgboost": "3.0.2"
+  },
+  "code_sha256": {
+    "__init__.py": "06795f53ca43542125b71fc63b99369e9e6fef20c7c9b592922b0157c7c618ba",
+    "analyze.py": "03f590d0c7729b1455fab30ce2a65b4532c6836bc3f23ec6d3d3831ec77812f1",
+    "build_displays.py": "699a700242ec173e443fcc4bf20c91153cc368f2fb4d75e2be95f3e2dbebf509",
+    "build_manuscript.py": "629733ce0ecb2a080b2bdab3ec2c647e7712bd5c9d5f2be481a05c9eead4be8d",
+    "data.py": "cce836a052170ff519f0bf39602dbcd3ef08886f96b6ccf2f5594fcdeee1014f",
+    "export_documents.py": "6928cd4bd559dfeb4e07d2b8337d06eb5d04fa1d3426c8e30db5d72e01892f6b",
+    "features.py": "060656701cf5367d191badc508e2ade360d4b9f3f75a1a0e677693c473242998",
+    "format_docx.py": "156fb7764d5c609e9d5de6a5c163d5e3c8616053f42a36e1db4f515a8ff74fd1",
+    "metrics.py": "cbec58299765c33588c69ee128b6c76a3d76c5c7bfe0fc8219233807cea6ab89",
+    "models.py": "2a05e322a97546922bca1470c7f8486d2d7d01d3f27f2ebf50cc2fb93a1441f8",
+    "run.py": "e8876524e2f38a1a15f8332dff041fea15f4f11fecf4d3e480680d3d3b0c4054",
+    "run_suite.py": "04f4786cdb8936bcd5f928c599220e60519b6ae2629f6fa5350f3f5093d1fe50",
+    "source_audit.py": "3c73d2c53e6b58f6da4f5658d16d46658a1037c36bfda2a7335e25096c41b678",
+    "summarize_resolution.py": "8f62162f8c6874e9f9e96dd6d856f1785fdc42716d052ac4fb2462dfc8f7348f"
+  }
+}

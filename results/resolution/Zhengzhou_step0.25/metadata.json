@@ -1,0 +1,144 @@
+{
+  "interval_top_basis": "previous_recorded_bottom; first_record_assumed_to_start_at_collar",
+  "global_order_valid": true,
+  "data_provider": "Xiaojie Zhai, Henan Institute of Geological Research (河南省地质研究院)",
+  "coordinate_units": "m_as_labelled_in_source; projected_CRS_not_documented",
+  "sources": {
+    "Drilling_and_distributio_data/基本情况表.xlsx": "448a53d49c3e6ebe1280ba4779b3e5eb1126f12ff604c8394ca225fa4290a01c",
+    "Drilling_and_distributio_data/分层信息表.xlsx": "8a6768443b86b07ed651e0881fc92983480d022d8b2b09ec45410b6018c94eac"
+  },
+  "dataset": "Zhengzhou",
+  "source_rows": 692,
+  "boreholes": 69,
+  "labels": [
+    "中细砂",
+    "粉土",
+    "粉砂",
+    "粉细砂",
+    "粉质粘土",
+    "粘土",
+    "细砂"
+  ],
+  "horizons": [
+    "101",
+    "102",
+    "103",
+    "104",
+    "105",
+    "106",
+    "107",
+    "108",
+    "109",
+    "110",
+    "111",
+    "112",
+    "113",
+    "114",
+    "2101",
+    "2102",
+    "2103",
+    "2104",
+    "2105",
+    "2106",
+    "2107",
+    "2108",
+    "3101",
+    "3102",
+    "3103",
+    "3104",
+    "3105",
+    "3106",
+    "3107",
+    "3108",
+    "4101",
+    "4102",
+    "4103",
+    "4104",
+    "4105"
+  ],
+  "step": 0.25,
+  "boundary_rows": 623,
+  "excluded_terminal_boundaries": 69,
+  "labelled_points": 20779,
+  "grid_points": 20779,
+  "unobserved_points": 0,
+  "ambiguous_points": 0,
+  "sampled_labels": [
+    "中细砂",
+    "粉土",
+    "粉砂",
+    "粉细砂",
+    "粉质粘土",
+    "粘土",
+    "细砂"
+  ],
+  "protocol": "2.0",
+  "cv": "group",
+  "parameters": {
+    "IDW": {
+      "power": 2
+    },
+    "RBF": {
+      "function": "multiquadric",
+      "smooth": 0.5,
+      "epsilon": "training_median_nonzero_distance"
+    },
+    "OK": {
+      "variogram_model": "linear",
+      "parameters": "fitted_on_training_horizon"
+    },
+    "RandomForest": {
+      "n_estimators": 200,
+      "max_depth": 20,
+      "max_features": "sqrt"
+    },
+    "XGBoost": {
+      "n_estimators": 200,
+      "max_depth": 8,
+      "learning_rate": 0.1,
+      "tree_method": "hist"
+    },
+    "LightGBM": {
+      "n_estimators": 200,
+      "max_depth": 15,
+      "num_leaves": 31,
+      "learning_rate": 0.1
+    },
+    "MLP": {
+      "hidden": 128,
+      "residual_blocks": 2,
+      "dropout": 0.1,
+      "max_epochs": 120,
+      "patience": 15,
+      "min_delta": 0.0001,
+      "batch_size": 256,
+      "learning_rate": 0.001,
+      "weight_decay": 0.0001,
+      "selection_loss": "unweighted_MSE_or_cross_entropy",
+      "outer_refit": true,
+      "schedule": "constant_learning_rate"
+    }
+  },
+  "interface_elevation_span": 165.5,
+  "python": "3.12.3",
+  "environment": {
+    "numpy": "1.26.4",
+    "pandas": "3.0.5",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.9.0",
+    "torch": "2.2.1",
+    "pykrige": "1.7.3",
+    "lightgbm": "4.6.0",
+    "openpyxl": "3.1.5",
+    "xgboost": "3.0.2"
+  },
+  "code_sha256": {
+    "__init__.py": "06795f53ca43542125b71fc63b99369e9e6fef20c7c9b592922b0157c7c618ba",
+    "analyze.py": "03f590d0c7729b1455fab30ce2a65b4532c6836bc3f23ec6d3d3831ec77812f1",
+    "data.py": "cce836a052170ff519f0bf39602dbcd3ef08886f96b6ccf2f5594fcdeee1014f",
+    "features.py": "060656701cf5367d191badc508e2ade360d4b9f3f75a1a0e677693c473242998",
+    "metrics.py": "cbec58299765c33588c69ee128b6c76a3d76c5c7bfe0fc8219233807cea6ab89",
+    "models.py": "2a05e322a97546922bca1470c7f8486d2d7d01d3f27f2ebf50cc2fb93a1441f8",
+    "run.py": "e8876524e2f38a1a15f8332dff041fea15f4f11fecf4d3e480680d3d3b0c4054"
+  }
+}

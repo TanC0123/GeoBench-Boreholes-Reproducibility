@@ -1,0 +1,208 @@
+{
+  "date": "2026-09-18",
+  "upstream_commit": "816db75bad6f1eda71209a4635490d2969eadeb0",
+  "upstream_source": "tests/data/borehole/doggr_jlw_vedder_final.utm.dat",
+  "units": "metres",
+  "horizontal_crs": "NAD27 / UTM zone 11N (header: Universal Transverse Mercator, Zone 11, Clarke 1866/NAD27)",
+  "header_lines": "11: topo meters; 12\u201326: named horizons meters; Projection/Zone/Units/Ellipsoid near end of header",
+  "conversion": "base_depth = collar_elevation - source_contact_elevation; top_depth = previous retained base_depth; reversed intervals replaced upstream by top + 0.01 m",
+  "original_boreholes": 69,
+  "reconstructed_rows": 721,
+  "cached_rows": 721,
+  "matching_rows": 721,
+  "max_absolute_difference_m": {
+    "x": 0.0,
+    "y": 0.0,
+    "altitude": 5.684341886080802e-14,
+    "top": 1825.2861629,
+    "base": 1487.5695851799999
+  },
+  "retained_labelled_intervals": 583,
+  "upstream_repairs_retained": 20,
+  "repair_labels": {
+    "mclure": 3,
+    "basement": 3,
+    "round_mountain": 3,
+    "chanac": 3,
+    "olcese": 2,
+    "fruitvale": 1,
+    "macoma": 1,
+    "etchegoin": 1,
+    "santa_margarita": 1,
+    "eocene": 1,
+    "freeman_jewett": 1
+  },
+  "source_file_sha256": "21181bd02866c7eee4b3e0ff747de89121a6279834d265e64e8789c558b1cda7",
+  "cached_file_sha256": "a91445cb960526398e25d8c1d2ab3b3a32f7d35feaf33e18887629b242256ab6",
+  "interpretation": "Units are established by source header and complete numerical reconstruction, not inferred from magnitude. Geological contact fidelity and the upstream positional label assignment remain separate questions.",
+  "max_absolute_difference_retained_m": {
+    "x": 0.0,
+    "y": 0.0,
+    "altitude": 5.684341886080802e-14,
+    "top": 9.094947017729282e-13,
+    "base": 9.094947017729282e-13
+  },
+  "excluded_topo_differences": [
+    {
+      "wellid": "2971075",
+      "name_cached": "Bishop_FeeXXX",
+      "formation": "topo",
+      "top_reconstructed": 0.0,
+      "top_cached": 1825.2861629,
+      "base_reconstructed": 337.72657772,
+      "base_cached": 1825.2961629
+    },
+    {
+      "wellid": "3004666",
+      "name_cached": "USLXXX",
+      "formation": "topo",
+      "top_reconstructed": 0.0,
+      "top_cached": 1656.9221498,
+      "base_reconstructed": 189.93309406999998,
+      "base_cached": 1656.9321498
+    }
+  ],
+  "all_583_used_intervals_reconstructed": true,
+  "repaired_intervals": [
+    {
+      "wellid": "2904240",
+      "name_cached": "KCL12",
+      "formation": "mclure",
+      "top_cached": 2109.9936834,
+      "base_cached": 2110.0036834
+    },
+    {
+      "wellid": "2906949",
+      "name_cached": "KCL_B45",
+      "formation": "basement",
+      "top_cached": 2862.7718889,
+      "base_cached": 2862.7818889
+    },
+    {
+      "wellid": "2908286",
+      "name_cached": "CallowayXX",
+      "formation": "basement",
+      "top_cached": 2969.4509508,
+      "base_cached": 2969.4609508000003
+    },
+    {
+      "wellid": "2908632",
+      "name_cached": "KCL_1144",
+      "formation": "fruitvale",
+      "top_cached": 2441.8177105,
+      "base_cached": 2441.8277105
+    },
+    {
+      "wellid": "2908933",
+      "name_cached": "Kramer1",
+      "formation": "macoma",
+      "top_cached": 739.409256,
+      "base_cached": 739.419256
+    },
+    {
+      "wellid": "2910932",
+      "name_cached": "Tidewater_Capital_Co.XX",
+      "formation": "round_mountain",
+      "top_cached": 2923.26431274,
+      "base_cached": 2923.2743127400004
+    },
+    {
+      "wellid": "2916486",
+      "name_cached": "Westates44",
+      "formation": "etchegoin",
+      "top_cached": 669.5771331999999,
+      "base_cached": 669.5871331999999
+    },
+    {
+      "wellid": "2916586",
+      "name_cached": "Helbling1",
+      "formation": "basement",
+      "top_cached": 3768.8134608,
+      "base_cached": 3768.8234608
+    },
+    {
+      "wellid": "2930721",
+      "name_cached": "Kuhn81_15",
+      "formation": "mclure",
+      "top_cached": 1142.3730926,
+      "base_cached": 1142.3830926
+    },
+    {
+      "wellid": "2930722",
+      "name_cached": "Bergman_Trust1",
+      "formation": "round_mountain",
+      "top_cached": 1133.1481934000003,
+      "base_cached": 1133.1581934000003
+    },
+    {
+      "wellid": "2930727",
+      "name_cached": "Steele_Petroleum_Co4_1",
+      "formation": "santa_margarita",
+      "top_cached": 1388.2213437,
+      "base_cached": 1388.2313437
+    },
+    {
+      "wellid": "2930728",
+      "name_cached": "Gow1",
+      "formation": "round_mountain",
+      "top_cached": 1504.4344182,
+      "base_cached": 1504.4444182
+    },
+    {
+      "wellid": "2935284",
+      "name_cached": "Sharples_Marathon_BillingtonXX",
+      "formation": "eocene",
+      "top_cached": 3946.19903533,
+      "base_cached": 3946.209035330001
+    },
+    {
+      "wellid": "2942325",
+      "name_cached": "Roberts_Cox23_1",
+      "formation": "mclure",
+      "top_cached": 938.2844849,
+      "base_cached": 938.2944849
+    },
+    {
+      "wellid": "2952331",
+      "name_cached": "HayesXX",
+      "formation": "freeman_jewett",
+      "top_cached": 1827.4930576,
+      "base_cached": 1827.5030576
+    },
+    {
+      "wellid": "2956437",
+      "name_cached": "Tenneco_Rio_Bravo32",
+      "formation": "chanac",
+      "top_cached": 2206.5109255,
+      "base_cached": 2206.5209255
+    },
+    {
+      "wellid": "2965091",
+      "name_cached": "Wiedman55_26",
+      "formation": "chanac",
+      "top_cached": 2125.1742326,
+      "base_cached": 2125.1842326
+    },
+    {
+      "wellid": "2971627",
+      "name_cached": "Bellevue_Deep1",
+      "formation": "olcese",
+      "top_cached": 2797.1989443,
+      "base_cached": 2797.2089443000004
+    },
+    {
+      "wellid": "2972283",
+      "name_cached": "S_&_D_Killingwoth_EPM1",
+      "formation": "chanac",
+      "top_cached": 106.18405149999997,
+      "base_cached": 106.19405149999996
+    },
+    {
+      "wellid": "2983501",
+      "name_cached": "Union_Tribe_BXX",
+      "formation": "olcese",
+      "top_cached": 169.94570919,
+      "base_cached": 169.95570919
+    }
+  ]
+}

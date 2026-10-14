@@ -1,0 +1,813 @@
+{
+  "analysis": "exploratory source-order isotonic reference; no model retraining",
+  "algorithm": "scipy.optimize.isotonic_regression, non-increasing, equal weights",
+  "not_applicable": "Kimberlina: no independently verified total source order",
+  "prediction_files": 160,
+  "configurations": 32,
+  "per_column_nonincrease_checks": 1824,
+  "projection_never_receives_targets": true,
+  "known_boundary_query_population_only": true,
+  "weak_order_can_collapse_layers": true,
+  "files": [
+    {
+      "file": "Zhengzhou_group/predictions/track1_raw_IDW_fold0.csv.gz",
+      "sha256": "f1a9cf9e825abf42cf43bddd2481f14da6656cbabcfbb03f5d3f00c660768761",
+      "original_prediction_sha256": "a8a24e0059670f3ce1149dccb0a6baae352461bbbe0a7a4c62d9b53c5e28719c"
+    },
+    {
+      "file": "Zhengzhou_group/predictions/track1_raw_IDW_fold1.csv.gz",
+      "sha256": "d58f40f0593aeca54be4d6772b0e577962d39bab5349b0ff944f488429886ec7",
+      "original_prediction_sha256": "d7f598cddfbb85ef45a368a25f7e0763afa3975c6cf44b3a881ceda626a600a2"
+    },
+    {
+      "file": "Zhengzhou_group/predictions/track1_raw_IDW_fold2.csv.gz",
+      "sha256": "9ab8f9bd14c44af24f3d7ce928e9d013b7b2f9a218b1079757d98aa1b28d5697",
+      "original_prediction_sha256": "8a4f8fdb7f44aa19ba7bd026535eae74daffe8284df254a404dd399bb4aa87d8"
+    },
+    {
+      "file": "Zhengzhou_group/predictions/track1_raw_IDW_fold3.csv.gz",
+      "sha256": "3ab82bcf6967a8a42c875ddcacfd7955d813973c45f431eea5a6a219b2ded2c0",
+      "original_prediction_sha256": "9ae894a171050e18347dad6c5e64b83a6bc13a66929a569a9128cce5119aeb4d"
+    },
+    {
+      "file": "Zhengzhou_group/predictions/track1_raw_IDW_fold4.csv.gz",
+      "sha256": "639b7647e86bd14cc1d3989f4daa77ae4c8a83f28d15d14afe6d5be00ed59f81",
+      "original_prediction_sha256": "5170b78f2f554cc2b5c7d42c8b5e2c13a117af3ad0e742c7791a026db22a6d5d"
+    },
+    {
+      "file": "Zhengzhou_group/predictions/track1_raw_RBF_fold0.csv.gz",
+      "sha256": "c24a1e468e0c2f0663f0012eb9a9be863929eafb5a45943cbe79b4b86af70b28",
+      "original_prediction_sha256": "94aa81d594a85f133608dd4897d4f7d7e8b28ef37fff4f3bb7e5cb2491805668"
+    },
+    {
+      "file": "Zhengzhou_group/predictions/track1_raw_RBF_fold1.csv.gz",
+      "sha256": "f5d4840b9a5fa11184f9182ac37c47e3ff49f3d1735e7b20a750ae926a21d0aa",
+      "original_prediction_sha256": "7368ea67696f09cd85646831d61414cbb18b9b29dfb36e86788c46caeee6be89"
+    },
+    {
+      "file": "Zhengzhou_group/predictions/track1_raw_RBF_fold2.csv.gz",
+      "sha256": "25877725944e2f06b76e0c467992914ff33e84e870e2d15faea41cb9a720d528",
+      "original_prediction_sha256": "d4957ae52faca010165128c6ecf89c1c6610f822c3c0f964cf4d9bad0da8dd77"
+    },
+    {
+      "file": "Zhengzhou_group/predictions/track1_raw_RBF_fold3.csv.gz",
+      "sha256": "bf4f355506c8c13f25050bb2b515a3ed1343abda0c60096b9617b9929f72d7a9",
+      "original_prediction_sha256": "71fa75844d5f6f3b2b787aea3ded832af95beb0a80e001a19b60d30aba4d2a2c"
+    },
+    {
+      "file": "Zhengzhou_group/predictions/track1_raw_RBF_fold4.csv.gz",
+      "sha256": "47ac10d27a249b0a2b56d818b6641cf3298f41a34790998bad091bd705511d8e",
+      "original_prediction_sha256": "e8baf24a801b2b0ab930fa834461a937bb736c91975f67ef7bcca062e8f61b86"
+    },
+    {
+      "file": "Zhengzhou_group/predictions/track1_raw_OK_fold0.csv.gz",
+      "sha256": "a57fa982c8277724f7be6177241d751fca8c52eb90d6e9793d1c639772028620",
+      "original_prediction_sha256": "ec254137f5143f4d63442b94af40f298fe5f41b09b7aa7ee7ad850b26d039b84"
+    },
+    {
+      "file": "Zhengzhou_group/predictions/track1_raw_OK_fold1.csv.gz",
+      "sha256": "310a0c928f9e57a246a71d01f4f3f7ab5781b4a523733f08e2b72b16e63ec92e",
+      "original_prediction_sha256": "b23e7f20b53aaa2cfea1c60121933c755d26d51a057dff64b62bd8da97a50c6b"
+    },
+    {
+      "file": "Zhengzhou_group/predictions/track1_raw_OK_fold2.csv.gz",
+      "sha256": "6c48b716064d81fed72d8c59456e4ba9bc909915cccea8c5b9e046f6fa7ba386",
+      "original_prediction_sha256": "7044aa2b38a759dfc526a4494b1485be1f3801e516c2e3913c0f4c9889a68de0"
+    },
+    {
+      "file": "Zhengzhou_group/predictions/track1_raw_OK_fold3.csv.gz",
+      "sha256": "562ed089e864d7f57dab590928711c4d4b999469ce723de5d88860230a76a163",
+      "original_prediction_sha256": "1ae6c7c145c346f83a518d1f2fbe5cce6fbe643285d5fa31710429b333a4798d"
+    },
+    {
+      "file": "Zhengzhou_group/predictions/track1_raw_OK_fold4.csv.gz",
+      "sha256": "2373a378f05d48b0c69cdc7104c2561fbc232efc10b74818b88532371d68d283",
+      "original_prediction_sha256": "6f4af7685b0f3fa19995fbabd5e05526a8e15ab88d8ea6dc8ce38a443150cc5b"
+    },
+    {
+      "file": "Zhengzhou_group/predictions/track1_raw_CoordinateMLP_fold0.csv.gz",
+      "sha256": "2afda3e5f32609cf7941f2516b8c06f4973226e755163d05ead44f0143889d5d",
+      "original_prediction_sha256": "d9acb09ffa850946a556d00df3f0498d627015cba445636d243df7b49ef191fb"
+    },
+    {
+      "file": "Zhengzhou_group/predictions/track1_raw_CoordinateMLP_fold1.csv.gz",
+      "sha256": "3eeddb5c5b25a2b22ddaa55498933b8c4273d2083405c2688cfcca205dba21ba",
+      "original_prediction_sha256": "2772b81eef18ad5810cb6124be31d25ebf2106731ac375e22f04dabebaab5960"
+    },
+    {
+      "file": "Zhengzhou_group/predictions/track1_raw_CoordinateMLP_fold2.csv.gz",
+      "sha256": "1ff60a29063cceb22e11304375acca40328dbbc1c6326addfd70c6db72add276",
+      "original_prediction_sha256": "948d1358341855fb36026160cb378661ca5e44b624c634c4fe5f7c5a10ed19e1"
+    },
+    {
+      "file": "Zhengzhou_group/predictions/track1_raw_CoordinateMLP_fold3.csv.gz",
+      "sha256": "0934bcacc320d8cae3fee20b24b779c9611d7d275bacdafc2c4e9c71947a7255",
+      "original_prediction_sha256": "7846df9ac34b0f73ba7ba7533f353ddd1af699bceb6a2beefd234e784e61c590"
+    },
+    {
+      "file": "Zhengzhou_group/predictions/track1_raw_CoordinateMLP_fold4.csv.gz",
+      "sha256": "76dc3e23db650408bc6c1062b4f58b9fc341a220bf0f8bf13b1c94b02b099339",
+      "original_prediction_sha256": "c15f6975a679770ae034d66b7551ea1140713c2653923e36e54a6a7e1a09c1a6"
+    },
+    {
+      "file": "Zhengzhou_group/predictions/track1_augmented_IDW_fold0.csv.gz",
+      "sha256": "9054d80b929f8d9d688de583383a414d700845d515ddebe16a2855abd27eee7a",
+      "original_prediction_sha256": "f80e27a91accd86e65168699d1ae5a4011be2b0d138af99214f4587b4a0ddff2"
+    },
+    {
+      "file": "Zhengzhou_group/predictions/track1_augmented_IDW_fold1.csv.gz",
+      "sha256": "e19a8eacddd2e3a2b6dbb4d4e13a21a158275d086d9bf2db2bedf0f6eb04948f",
+      "original_prediction_sha256": "f98229c62283fdbe6cabf8e57d5b63bf6fe75b995c2459154c423a5cdb142417"
+    },
+    {
+      "file": "Zhengzhou_group/predictions/track1_augmented_IDW_fold2.csv.gz",
+      "sha256": "87f030266a786ceae32f4f25a3b17bcc7d9f94c288381fb3cfc329181371f12e",
+      "original_prediction_sha256": "72ea72ccc48d7a7191f7dfe43feca8fa3d2a4c454a7e6c844197889ea0b725a5"
+    },
+    {
+      "file": "Zhengzhou_group/predictions/track1_augmented_IDW_fold3.csv.gz",
+      "sha256": "58c7634cee665e170881d0ce761cf82ec81d314ed4a097852e83a2cda200ccc9",
+      "original_prediction_sha256": "fac2d245dc6409ce6533cb0a51fc48760812b48a6a5525ba77eb98f18bf9249a"
+    },
+    {
+      "file": "Zhengzhou_group/predictions/track1_augmented_IDW_fold4.csv.gz",
+      "sha256": "80edf44d33550d713c1c7ded2fc07a846ac36aba55987f175682d3a14698a3d1",
+      "original_prediction_sha256": "2ec15ed33a9097b979148b87264cbfc2271f6dff2296b153d80e3e48f6d4bfaf"
+    },
+    {
+      "file": "Zhengzhou_group/predictions/track1_augmented_RBF_fold0.csv.gz",
+      "sha256": "9593189cd9fd26904dabbb968deb5fed77de9c45f94f04b309ea9d15abbdd5c5",
+      "original_prediction_sha256": "14dbb77fba347e59008eee7d07a59d9351a05e235eb8cb5ac102f0734558646a"
+    },
+    {
+      "file": "Zhengzhou_group/predictions/track1_augmented_RBF_fold1.csv.gz",
+      "sha256": "ba69747eae15288e213464106ec816ec1687c8ebd059058fab343c18e516386f",
+      "original_prediction_sha256": "1954eda109f70edf279119a02c2b3889de0ae674c48657ca05ae54292194f335"
+    },
+    {
+      "file": "Zhengzhou_group/predictions/track1_augmented_RBF_fold2.csv.gz",
+      "sha256": "04c92a1ff763972e92f9e7a1487f607a79b8007646f2a4318bc114512a681028",
+      "original_prediction_sha256": "4abcbf86f397c7103bfed13ef9688fb59e99ad15f5990d490f9ee8d7376a362c"
+    },
+    {
+      "file": "Zhengzhou_group/predictions/track1_augmented_RBF_fold3.csv.gz",
+      "sha256": "04ea0dec214b7d7c174f7690a3bff9572fbb5d8619419ae5b423dcedcc74a5e3",
+      "original_prediction_sha256": "8a0db920e3c29c7342669f9a0d1170378dd3e390064e94e3960e23c43ae16c0b"
+    },
+    {
+      "file": "Zhengzhou_group/predictions/track1_augmented_RBF_fold4.csv.gz",
+      "sha256": "f9b62f0fffea91521ac387ebd285c69a5f01266194d8142885add5cdde721a35",
+      "original_prediction_sha256": "84b4481fb17ebe0012cd2d9de4b3cb3008260fb555061708d1759f49f6abc317"
+    },
+    {
+      "file": "Zhengzhou_group/predictions/track1_augmented_OK_fold0.csv.gz",
+      "sha256": "a1395def988b0054793e23011c7d81fb20e18d187db9762e53d892055ac23349",
+      "original_prediction_sha256": "ee9cdd2ec69da1e9f9ad5775b50fb954ecadc31d99b6cd57a702541312896862"
+    },
+    {
+      "file": "Zhengzhou_group/predictions/track1_augmented_OK_fold1.csv.gz",
+      "sha256": "ce17865a107156749cc1ae981cc915e288e31e86048c4851c5a991b423002cc7",
+      "original_prediction_sha256": "3b5213429342e752b5f2b58c04e2242fe030d25115bb4ff63fda7272c7e30b28"
+    },
+    {
+      "file": "Zhengzhou_group/predictions/track1_augmented_OK_fold2.csv.gz",
+      "sha256": "716407b9b2ed375bbc385d8494c0bf74af92bc58c1648dc2f119d390fae0be94",
+      "original_prediction_sha256": "c3beb4df040efc3c35e88f1f0bf32a6200a001f2fd37773c2af95771556e29d7"
+    },
+    {
+      "file": "Zhengzhou_group/predictions/track1_augmented_OK_fold3.csv.gz",
+      "sha256": "6570d302252fbcd2570e081b63bbccb4e39f137d6f37b93d08df28caec4f5863",
+      "original_prediction_sha256": "63b006603608ab442d6930f6499a92e5d0649ccd22e4ab33deb127e0f136c716"
+    },
+    {
+      "file": "Zhengzhou_group/predictions/track1_augmented_OK_fold4.csv.gz",
+      "sha256": "d2c2b441d7a457e49bf722362ff3f334bb6571bb500fbb40a700d9168f94df60",
+      "original_prediction_sha256": "efed4f2b1a593ff503e5bf65cfde53b7348b86af8ea4cf04cb10a8998ae06302"
+    },
+    {
+      "file": "Zhengzhou_group/predictions/track1_augmented_CoordinateMLP_fold0.csv.gz",
+      "sha256": "e9800b81ef5326426875e140d4128040eea69512d44f4d7d9bcf1875edbdccd8",
+      "original_prediction_sha256": "16a6df2807d507d6efdec300ac8271e88884426fc2c1e4eea726f407dab7cd34"
+    },
+    {
+      "file": "Zhengzhou_group/predictions/track1_augmented_CoordinateMLP_fold1.csv.gz",
+      "sha256": "f95e53643c78ba7a46af35462581979a75038d311185b9e8f335f81dd0b60177",
+      "original_prediction_sha256": "a25072785d8177eb897fef8e3d694e1aba40bb5b81b923e6a33603c4b4c32907"
+    },
+    {
+      "file": "Zhengzhou_group/predictions/track1_augmented_CoordinateMLP_fold2.csv.gz",
+      "sha256": "5b8e8e1fc979913b3373a7ba02dc3123e94d53b3046eba687b9f525209dcc4fa",
+      "original_prediction_sha256": "c8b4ed17501651d74415abcbf2705df7a75ab28404ee8df410822d73a1b61948"
+    },
+    {
+      "file": "Zhengzhou_group/predictions/track1_augmented_CoordinateMLP_fold3.csv.gz",
+      "sha256": "9ba705e773c80b5412faa5c59d1f33316eb76a592d7f81e647a7184bdb5ccb39",
+      "original_prediction_sha256": "564a5322195641fa65ace39c819a8a6c157e3a9654c0f453022174dd6b5a9a8f"
+    },
+    {
+      "file": "Zhengzhou_group/predictions/track1_augmented_CoordinateMLP_fold4.csv.gz",
+      "sha256": "80565aea24280bdb73e2fce080c3a669ce339f72ff7482ba2eb34486b9db057f",
+      "original_prediction_sha256": "711e0790c8a444f88d24cb2a1c694a53d3d88cc9bdfc8107d7eb9771fc5af1b9"
+    },
+    {
+      "file": "Zhengzhou_spatial/predictions/track1_raw_IDW_fold0.csv.gz",
+      "sha256": "0b633fe4e9f4e29bf6fa45fcd97198e4db7790507f754f22e08fff50c99bd2f3",
+      "original_prediction_sha256": "fa08acd7a0304d575163f8a8cb0fbb262ecb71ff16ea2a7c7f7a831bed3cc26f"
+    },
+    {
+      "file": "Zhengzhou_spatial/predictions/track1_raw_IDW_fold1.csv.gz",
+      "sha256": "e2d3f6262b2430cd81a3ca6c2f6b9f81ab991b64eba05a4fd856ebd59b70a70a",
+      "original_prediction_sha256": "e5739ad57bcf2ca3af292dc9f95c39c0f8a94c8fd361eb22397cbc050af84ea8"
+    },
+    {
+      "file": "Zhengzhou_spatial/predictions/track1_raw_IDW_fold2.csv.gz",
+      "sha256": "c2d12e99390c1eba3780ba74e8dece99d4c1fc29f92dafe268cab94bf8576050",
+      "original_prediction_sha256": "8dd9a00dedad0b242df2e3443d6b5c0e0b906dc4093a416a7870e3eb2bde93ff"
+    },
+    {
+      "file": "Zhengzhou_spatial/predictions/track1_raw_IDW_fold3.csv.gz",
+      "sha256": "6fcd5455c2d494c53a3047fcc15612e65cb35ef350d0719f956fe2c269358973",
+      "original_prediction_sha256": "a96ee00671a8f75855bc8e99e0a7ccfaaeba7334be0a20651bdc1990377ed445"
+    },
+    {
+      "file": "Zhengzhou_spatial/predictions/track1_raw_IDW_fold4.csv.gz",
+      "sha256": "07a8966233bed8795544579e8159ee2fd6bf8d805eca2052105246a4a07b1a5c",
+      "original_prediction_sha256": "84cdf1397c642617d77834451b7a1cf3aca9f2924216ceedec0b5d32dc37983b"
+    },
+    {
+      "file": "Zhengzhou_spatial/predictions/track1_raw_RBF_fold0.csv.gz",
+      "sha256": "457306667bf2971d717d1511785296a3dd3a36e4ee90dc8cad7d875fadadc00a",
+      "original_prediction_sha256": "0392e3d6bf597ce9f01da10e9454be2d222248e09abac4ac85bbae64ba9a6c03"
+    },
+    {
+      "file": "Zhengzhou_spatial/predictions/track1_raw_RBF_fold1.csv.gz",
+      "sha256": "a995d2b5172e791c128b22611e3f83a65a10e257a2d39d27e99797327562d185",
+      "original_prediction_sha256": "036bd834063597e0bdcc9ff571b31b14510f792cc1ca5feaff75b965bf3addf7"
+    },
+    {
+      "file": "Zhengzhou_spatial/predictions/track1_raw_RBF_fold2.csv.gz",
+      "sha256": "60e91233ee715afd317e5480b8f36ff443a22b87852e03e971361e0fb0892ec3",
+      "original_prediction_sha256": "04c1234622227f2a5f1edaa7f781af3d7630bfdc1aaec338bb1e1cb129d74f7d"
+    },
+    {
+      "file": "Zhengzhou_spatial/predictions/track1_raw_RBF_fold3.csv.gz",
+      "sha256": "8d1fbb4f4e0e307497e2c443f9e1a35377ce162fd096a76b242726b74502b66e",
+      "original_prediction_sha256": "185dcf919b48fd0b9baf95d190a01a8e3972e390dd77f4fd141e51b9fbce0fcf"
+    },
+    {
+      "file": "Zhengzhou_spatial/predictions/track1_raw_RBF_fold4.csv.gz",
+      "sha256": "28d4a6e31206e234b4b74339f8c7d612c314512f428459b13534ab4bb03f473c",
+      "original_prediction_sha256": "cfcd86a7fca19ead5b68c122cd1dafd1e08b9af94aa8e437f65f646f4ea005dd"
+    },
+    {
+      "file": "Zhengzhou_spatial/predictions/track1_raw_OK_fold0.csv.gz",
+      "sha256": "f9e994c2687e6b3359c9ff00c97c1a67d600d3b37afe34c6a37439fbc4ae1953",
+      "original_prediction_sha256": "dcbe9ab9153f12a0132a61c956c1e5dbf37f34d475ab8cf4e8cfd6b831a198d8"
+    },
+    {
+      "file": "Zhengzhou_spatial/predictions/track1_raw_OK_fold1.csv.gz",
+      "sha256": "092a8bf71db3fd8cbc18eed9ee293a32558b0a31a914e7e6b594bf4a19ecf6c7",
+      "original_prediction_sha256": "94cabebbba836c35096a3c1c405d176d7d9a0a657dcbf23e3eae06d8fafa56bc"
+    },
+    {
+      "file": "Zhengzhou_spatial/predictions/track1_raw_OK_fold2.csv.gz",
+      "sha256": "e6f0be497d0c37543a73b350d1d69cb406cea76f549c7fb0ecebfc8a04385a37",
+      "original_prediction_sha256": "8191a1f67e34c9455510cf61f67b95bc1883b2b5dca29792d61db153da7a1fc1"
+    },
+    {
+      "file": "Zhengzhou_spatial/predictions/track1_raw_OK_fold3.csv.gz",
+      "sha256": "9425de4669878011324db2e1dc907626ca592ab449dc2e6649cf432676f4763b",
+      "original_prediction_sha256": "080069d5960a0d9bdbb7a6d66b156aaf5f39b44696862f758ec9fc1b1a5f5fbd"
+    },
+    {
+      "file": "Zhengzhou_spatial/predictions/track1_raw_OK_fold4.csv.gz",
+      "sha256": "93fd1e2e49605bcbd8cbfd74eebe34b16181efd6bd0b2cb5277a135f0389fcb7",
+      "original_prediction_sha256": "4c6b748b0c1750d1df5ab6817870c7806608000cec2fdf74eb28a0e2e07e203c"
+    },
+    {
+      "file": "Zhengzhou_spatial/predictions/track1_raw_CoordinateMLP_fold0.csv.gz",
+      "sha256": "d7f0e3856f136d0ba2ecdd51c792ac3ec31b888094356fa2f9ce4e3ed8550f50",
+      "original_prediction_sha256": "583fd3e8b2091b823c2f79578c17e07d3b781019a62f19df46943e49823f5d86"
+    },
+    {
+      "file": "Zhengzhou_spatial/predictions/track1_raw_CoordinateMLP_fold1.csv.gz",
+      "sha256": "72bb71ee952f19162eb802300c3a5cf89bd2d1942f9b9949ae8256a16d435fc9",
+      "original_prediction_sha256": "0d7a70d212d05b3e350f934e72f766f895bb34c2c886e0abbc6bba7e658916a2"
+    },
+    {
+      "file": "Zhengzhou_spatial/predictions/track1_raw_CoordinateMLP_fold2.csv.gz",
+      "sha256": "dbe5ed95e05383bc53a514cd898bff9bda961a7c048d8187cdc3c20e8801109e",
+      "original_prediction_sha256": "471f7a03b9a97ea9c49054e2344f4a269e7b01d404abbb27ee0df3457ab3fb16"
+    },
+    {
+      "file": "Zhengzhou_spatial/predictions/track1_raw_CoordinateMLP_fold3.csv.gz",
+      "sha256": "39a6f87fd52735d679d404323bcedcfba8016fe0a85d4c0e73ecc71d7648e104",
+      "original_prediction_sha256": "a6ded07e9aa5a0137297f4ac8b2207a8ec2635fb16bdcab560ffdac7110fc0a6"
+    },
+    {
+      "file": "Zhengzhou_spatial/predictions/track1_raw_CoordinateMLP_fold4.csv.gz",
+      "sha256": "1975c0f6f12c99cdc739f578d6123cff94a8e25279a1d6b82ab20ccae5e71bb5",
+      "original_prediction_sha256": "02678bf060e66f2149e7c40d92cb2d09d10b57ea26d9ef12b128b2a73a457246"
+    },
+    {
+      "file": "Zhengzhou_spatial/predictions/track1_augmented_IDW_fold0.csv.gz",
+      "sha256": "5bcc04cd14e550eeaab3c98f0986e40579cad17f4a120fa6201d4d5503be18f8",
+      "original_prediction_sha256": "53869156c552931d21208f0dbb744851a72a17f0198c634cbeeed2c2d55a1242"
+    },
+    {
+      "file": "Zhengzhou_spatial/predictions/track1_augmented_IDW_fold1.csv.gz",
+      "sha256": "11acab46ad7743516446ee099af2761d0d5b0cc4bc76e0642595503f84162253",
+      "original_prediction_sha256": "b5e4f33e5d4be89e68928cbf2fca6dcb49c7b1f9194919c845c98a17b16c3f99"
+    },
+    {
+      "file": "Zhengzhou_spatial/predictions/track1_augmented_IDW_fold2.csv.gz",
+      "sha256": "183c9b415cb71e5ad65cddb0ff6be306c1f29f8ed37052383d81f95624de235f",
+      "original_prediction_sha256": "c62f51d48f4ceea015d8c7ca29d9719c6ac858122f624510da3bb1a8538092c2"
+    },
+    {
+      "file": "Zhengzhou_spatial/predictions/track1_augmented_IDW_fold3.csv.gz",
+      "sha256": "4d40acd54a728f400e28152c95f0ad23cd7a1f7b4e0c3cfa48cd884ffd3b8e34",
+      "original_prediction_sha256": "d7942ffcf98c557324409d6a1d2945ee6ac39e6decdb7f5f2054081bfb09ab92"
+    },
+    {
+      "file": "Zhengzhou_spatial/predictions/track1_augmented_IDW_fold4.csv.gz",
+      "sha256": "8e575aeceb12ebfcdd3e370a70b95edb406e67051ed264cf89e1e043a07fa026",
+      "original_prediction_sha256": "d705647313f70ea64f3af0127957023744c2dfde909751eba7743e9f9db0c3ab"
+    },
+    {
+      "file": "Zhengzhou_spatial/predictions/track1_augmented_RBF_fold0.csv.gz",
+      "sha256": "80bb0ae90be3ec598c0ec9cf3e7fdc63b0a98907f856abcc4d41f676bb6b6699",
+      "original_prediction_sha256": "57f726038a991c7a6df07ad0d642fe24e54c05096c6010bd41b1c8618481eeb3"
+    },
+    {
+      "file": "Zhengzhou_spatial/predictions/track1_augmented_RBF_fold1.csv.gz",
+      "sha256": "4b2c704d503f53baf4e39b9e778f40c7574fb8034c3d4150be2122513a123c63",
+      "original_prediction_sha256": "9511da0ba6b3ba3b020ec13937ae814557d0fa677ebeb2c35f349b31ba40180e"
+    },
+    {
+      "file": "Zhengzhou_spatial/predictions/track1_augmented_RBF_fold2.csv.gz",
+      "sha256": "2ba5481590ba83fcb01f1c7361777f5c41cb2cfd0fd43b9d99ff5b0d8b06480a",
+      "original_prediction_sha256": "925fb5896ce16d6cd9a7d34a58f8188b9fcf1be277920f33af0d481bdf90e467"
+    },
+    {
+      "file": "Zhengzhou_spatial/predictions/track1_augmented_RBF_fold3.csv.gz",
+      "sha256": "a164d4572238f00792de55c6140371b942d774a0370477b869c786d5e6ad424d",
+      "original_prediction_sha256": "85663a6e2a023feb7c38199030bf29a2d044ad5924ae115f881cf4c3c84dbbfc"
+    },
+    {
+      "file": "Zhengzhou_spatial/predictions/track1_augmented_RBF_fold4.csv.gz",
+      "sha256": "dcfa201d141838d858b5e4b9f2b4d877b98092f9c3a2d36c190fc8f6aecc7569",
+      "original_prediction_sha256": "d2f145bb6865da32faadece46b22a14a547f8dec6741fef950dbc0556e03d7ee"
+    },
+    {
+      "file": "Zhengzhou_spatial/predictions/track1_augmented_OK_fold0.csv.gz",
+      "sha256": "c86483615d42840a74946ea26d7ce4bb01b771b67af444bd411822296266b6b7",
+      "original_prediction_sha256": "6c7703ec61df9ad70d1ccf5a1e1b777537c77880120fb194e4e9076bfe11e98b"
+    },
+    {
+      "file": "Zhengzhou_spatial/predictions/track1_augmented_OK_fold1.csv.gz",
+      "sha256": "3f56446defef294cde45cf38d50c824e4b38547ea3cc8429454bed4c8ade394d",
+      "original_prediction_sha256": "0ce957a0c91796a23ae9a51fde39f85c712c6b083aa6880a18717141f3d5cecf"
+    },
+    {
+      "file": "Zhengzhou_spatial/predictions/track1_augmented_OK_fold2.csv.gz",
+      "sha256": "e9a8e47b7b8be8dbd76da9c3b03fa3f348cb5dd1868c908eddd8a531ea2d0ce5",
+      "original_prediction_sha256": "f1d5469d6784a7ebec19c786114a9204f81be24832eb404f8cd97d119ea9ce91"
+    },
+    {
+      "file": "Zhengzhou_spatial/predictions/track1_augmented_OK_fold3.csv.gz",
+      "sha256": "2d7b4f8011bea2768955bca61639bbbb64388bee623a748c93f7870b12609668",
+      "original_prediction_sha256": "e909ad73a65bcc53515bcb18edf30be2ee6839a234a63189ed414444caf4fd13"
+    },
+    {
+      "file": "Zhengzhou_spatial/predictions/track1_augmented_OK_fold4.csv.gz",
+      "sha256": "3ec24c24365a04b4d38dfcfb717281167337273969be7a4ffed182729b424a06",
+      "original_prediction_sha256": "2aac465ecddcea623f25987f0c1dbe2dbb69be885f2f5124891b5b85a0d28067"
+    },
+    {
+      "file": "Zhengzhou_spatial/predictions/track1_augmented_CoordinateMLP_fold0.csv.gz",
+      "sha256": "bb3caa0c35a9d8162615b00820dae43ba57c517216cd33d510f55c1236038866",
+      "original_prediction_sha256": "5ac3b355cd4474c89f643f86de13de7a6743d833272ab0c49eacaeddae210ee0"
+    },
+    {
+      "file": "Zhengzhou_spatial/predictions/track1_augmented_CoordinateMLP_fold1.csv.gz",
+      "sha256": "de1f0ed0d3e31933eef23e89ad851f1a8ff31c30c6dee02df88910c2532ba3b8",
+      "original_prediction_sha256": "64bf5eb9137a8af84a440d78a69f1775837f8869a472557bdcba98e676768139"
+    },
+    {
+      "file": "Zhengzhou_spatial/predictions/track1_augmented_CoordinateMLP_fold2.csv.gz",
+      "sha256": "5c352e3b0dad9e8db8f7bdf808fc5ffe5dde6a6d7c8502f17675c906dd5d9d47",
+      "original_prediction_sha256": "64dd4ddf93bb22b27c97f34e43bce4e5540f33cdae2c8e4a46ba5af0c1ecd1aa"
+    },
+    {
+      "file": "Zhengzhou_spatial/predictions/track1_augmented_CoordinateMLP_fold3.csv.gz",
+      "sha256": "1d0680d3b008199b0fa57311c6aa96cbb5f1a0386424192a32dd6ca4453cd40a",
+      "original_prediction_sha256": "25be4473e41347e828b77fc5904ac8225f7bc61d12653dff867914e69a9e4347"
+    },
+    {
+      "file": "Zhengzhou_spatial/predictions/track1_augmented_CoordinateMLP_fold4.csv.gz",
+      "sha256": "d84c7fd679f973417716c8bf011ffa10b5bfe47a1c3b43f23a566d1cc10626bb",
+      "original_prediction_sha256": "351af8b431786979f96c0c79df83b26c77965b343297fc2abee9d5daea12a060"
+    },
+    {
+      "file": "SyntheticControl_group/predictions/track1_raw_IDW_fold0.csv.gz",
+      "sha256": "50e809ab523ed529b66531f309336d015ea3f78e2a8ca82999c12181ef947c81",
+      "original_prediction_sha256": "a7851035e181c147d82580f5c6c5429cf6232d39a4b4a3ff2c62b4ac459e8714"
+    },
+    {
+      "file": "SyntheticControl_group/predictions/track1_raw_IDW_fold1.csv.gz",
+      "sha256": "73672249559da31d1687e6f993116e29eded145205eb468e095de0426af766a3",
+      "original_prediction_sha256": "0c8a9d327fa08a98d8acfb3e05720dcb772544cf814779879e847655538bad61"
+    },
+    {
+      "file": "SyntheticControl_group/predictions/track1_raw_IDW_fold2.csv.gz",
+      "sha256": "92c3c9c8324071680787c505982fdd30658bc2e42f694d2c4fc116d43b270e5a",
+      "original_prediction_sha256": "724682a709022d4f3fa511b4cd8aa22b120fd5ae39fde1c8f45a2a61425cfbc5"
+    },
+    {
+      "file": "SyntheticControl_group/predictions/track1_raw_IDW_fold3.csv.gz",
+      "sha256": "2bb199e25935f4d481d87e5ea86765f65869ec043029c1d92ca422354e0e5ed6",
+      "original_prediction_sha256": "b91eb41acf16946e22a913a0959b29f1ef69c4d29a70565f2c58ac69154454e3"
+    },
+    {
+      "file": "SyntheticControl_group/predictions/track1_raw_IDW_fold4.csv.gz",
+      "sha256": "52af01a9629522f46921a9d231a10678eb421cae5421770e4c2876de49319a22",
+      "original_prediction_sha256": "9a131ec24189c294d8d0adaaa8d39ab3fc521132e7947181c27f23041476639c"
+    },
+    {
+      "file": "SyntheticControl_group/predictions/track1_raw_RBF_fold0.csv.gz",
+      "sha256": "745b6e38c55e497cf04d85b23bb03680889f2cabb6195b1255f8a45d23e630f4",
+      "original_prediction_sha256": "a0f4e8dc670a750b74021ed73b5f66647544f05cbc19871e8bcea860ff6309f1"
+    },
+    {
+      "file": "SyntheticControl_group/predictions/track1_raw_RBF_fold1.csv.gz",
+      "sha256": "ba5b0f4f2243ba7862ea12dd676cad22dc550445d8b16d2e104192903c54af8a",
+      "original_prediction_sha256": "95fdddfb08a228f330721387ed58a07ef0b112b66cd3befa68449d8395cd7970"
+    },
+    {
+      "file": "SyntheticControl_group/predictions/track1_raw_RBF_fold2.csv.gz",
+      "sha256": "e467e38f58270962666e5e56648afae952ec6e0e4329ef2f1b590d34ab9fb95a",
+      "original_prediction_sha256": "a50efd53e5c7cda674b722f333dfa9a0b0e4a27f0017cb696e270a0bb6c842a7"
+    },
+    {
+      "file": "SyntheticControl_group/predictions/track1_raw_RBF_fold3.csv.gz",
+      "sha256": "8896e1e6e0b3206bcaa716d614648acf9de1d05a892151dd8329c23402bb4c45",
+      "original_prediction_sha256": "071e61b4f0456392c0d249a950d65c70edd30552d1c930511405521f9d6b62e6"
+    },
+    {
+      "file": "SyntheticControl_group/predictions/track1_raw_RBF_fold4.csv.gz",
+      "sha256": "9768a2e2551a1e3bf470029372690c15912c1c2e9255f4a7224391b5169c445f",
+      "original_prediction_sha256": "9d6aaa45df84cfbd6307d27fd7d842e96c05e37f31ce0886e42d761afb929853"
+    },
+    {
+      "file": "SyntheticControl_group/predictions/track1_raw_OK_fold0.csv.gz",
+      "sha256": "b4962522046d4e7358e316527404f94d3b6a917eea3f49ca58dd216871273c0b",
+      "original_prediction_sha256": "a1dc3453a70416d7c5dbd4458a0b2e4381589217ca688c650c3375ba780bf125"
+    },
+    {
+      "file": "SyntheticControl_group/predictions/track1_raw_OK_fold1.csv.gz",
+      "sha256": "b769802f233871514a418b29e3dedc5ffd93e50f0a6b4fcef185ae30831b2f43",
+      "original_prediction_sha256": "23083d4201e767d81de99542fc98c5fde022ee9279362068c7c4c2623dae5437"
+    },
+    {
+      "file": "SyntheticControl_group/predictions/track1_raw_OK_fold2.csv.gz",
+      "sha256": "5a5c66747ec742deabd38847fc8542c65e06c5f17b3fc8ff9bce925d9da5d633",
+      "original_prediction_sha256": "849997ffc3e71a52698d124a455fe64131099889bd58eeb01427bcf880cbdffb"
+    },
+    {
+      "file": "SyntheticControl_group/predictions/track1_raw_OK_fold3.csv.gz",
+      "sha256": "0aaaf4df5847cb74367c3c425f4582749b6ffa13b5202d766b98d545f4874c1d",
+      "original_prediction_sha256": "dcc9686eec62c811ab4432a04e9af6c98792ea19d12c92b39f99e284b8eda305"
+    },
+    {
+      "file": "SyntheticControl_group/predictions/track1_raw_OK_fold4.csv.gz",
+      "sha256": "139cdf1135f140d26c37af4179c2fdd23775ad6f7bd96cedfe134a2aaf35edd8",
+      "original_prediction_sha256": "3c2f573015db0811633d83f87efae4ad921618ccfa4ccb53126baad90870a7ac"
+    },
+    {
+      "file": "SyntheticControl_group/predictions/track1_raw_CoordinateMLP_fold0.csv.gz",
+      "sha256": "9eabd6062ec2ea135648c95487c163a0c9fc01f8ad7409174b3a60263dc30557",
+      "original_prediction_sha256": "81f042d1c9516da53b3a7ff5c320d4e8e5a10f690725a85e5225a8fbbec723b1"
+    },
+    {
+      "file": "SyntheticControl_group/predictions/track1_raw_CoordinateMLP_fold1.csv.gz",
+      "sha256": "dca147410b6d9ae6664ef6ed2fc23832163435bae79c685314c5bfbd0d2245f4",
+      "original_prediction_sha256": "f1f7803442a7a2270e05ca1cf0096201202012421d229bfd41cc92fa1a7f6a57"
+    },
+    {
+      "file": "SyntheticControl_group/predictions/track1_raw_CoordinateMLP_fold2.csv.gz",
+      "sha256": "4b8b8a01914a6fe0b0c2e0634ccc81af4fe6c09cb085c1628ca6b999137ca7c0",
+      "original_prediction_sha256": "7408e09233dc13629bbf20fa4d265933e25f118a6fd8a75e427666060f94e29c"
+    },
+    {
+      "file": "SyntheticControl_group/predictions/track1_raw_CoordinateMLP_fold3.csv.gz",
+      "sha256": "156ceda7b39f14ee4c662cb4a9150cb0e241dc20c8f05278b8633027246d3fa9",
+      "original_prediction_sha256": "25864be7c66389f7fdeefa57e4563afa85d80084f8d725f761a33723dcf30420"
+    },
+    {
+      "file": "SyntheticControl_group/predictions/track1_raw_CoordinateMLP_fold4.csv.gz",
+      "sha256": "1c0db538311b511dcd1d5d47387f0e59239c16ad2c36b2cba61a520761bec15f",
+      "original_prediction_sha256": "8df4d34c7777fc2c5a7c2af9699f95eb20fc56743fbce9e908b8d09addd5a574"
+    },
+    {
+      "file": "SyntheticControl_group/predictions/track1_augmented_IDW_fold0.csv.gz",
+      "sha256": "923131d1c060b7f2fbd173828ce6b8dfc3a84c3fac66758640924884b83ae5f0",
+      "original_prediction_sha256": "fab350d95e0370861957b5e5a5ba5fbd53a6bd80389deaabe161fbdc3356244f"
+    },
+    {
+      "file": "SyntheticControl_group/predictions/track1_augmented_IDW_fold1.csv.gz",
+      "sha256": "4dce228f9443b1bf366df6b5321f93d31c8a0ca94f91a813382c4bd6a24683b5",
+      "original_prediction_sha256": "41785fc26333638df42ac4099dddcb952f3c33b8a4993d0b4c2ebbfd8598fa88"
+    },
+    {
+      "file": "SyntheticControl_group/predictions/track1_augmented_IDW_fold2.csv.gz",
+      "sha256": "174d46c3becf8604f77302534632ce7e63a43b1bdd4ac0932c7134e2eea494c8",
+      "original_prediction_sha256": "ac714ab75a50fa5c5930ab954896978a1fdfb2865b4079f886b35656c226bb34"
+    },
+    {
+      "file": "SyntheticControl_group/predictions/track1_augmented_IDW_fold3.csv.gz",
+      "sha256": "faf620400bae197e2399ca89cbe84c245d4186a8e64d7775d4e36d7146763904",
+      "original_prediction_sha256": "36d013493a1d659c692047a536fe12bf1d126bb3c563e42d115f6c09eea555b3"
+    },
+    {
+      "file": "SyntheticControl_group/predictions/track1_augmented_IDW_fold4.csv.gz",
+      "sha256": "ae5ae14b038bc61fb3a4fe0ac80f80e93bc6b7e92affb2bdca9e9b33d943bd2b",
+      "original_prediction_sha256": "415cf971c33f7625652132604c68b8cfe964807a9fe3f05e47dda5e5f56093ba"
+    },
+    {
+      "file": "SyntheticControl_group/predictions/track1_augmented_RBF_fold0.csv.gz",
+      "sha256": "04d23aa7e9533b4a5a7df581e175aa34e76de6df62b55f4b3fbbcbc45f11b40b",
+      "original_prediction_sha256": "4b29a9535c8c0227335aa5b3a44eab858285f7e91ab03805fc19e1e7a6eeb5a7"
+    },
+    {
+      "file": "SyntheticControl_group/predictions/track1_augmented_RBF_fold1.csv.gz",
+      "sha256": "12cfe4532f8532f50ebc0e4f2d8bf6939c496892741514e056eb7273891ba1d8",
+      "original_prediction_sha256": "fa387b04d50be636bc12cbc59c0aedbc9dc826b8a98bdd22e217095ac13570c3"
+    },
+    {
+      "file": "SyntheticControl_group/predictions/track1_augmented_RBF_fold2.csv.gz",
+      "sha256": "71f99bc6d655d31193a73c072c908ffaddb43b73a4ed6ccd75399a0ead29fc0b",
+      "original_prediction_sha256": "7ebbb74ea77b558c74df0d210bb2a81fe4e78b4873843a6def36ec3d0fbba701"
+    },
+    {
+      "file": "SyntheticControl_group/predictions/track1_augmented_RBF_fold3.csv.gz",
+      "sha256": "cb25ba8cedba68758ce949df1f8d274c17f112c2fdd4a6c9d258085536a19e9c",
+      "original_prediction_sha256": "323ecdb87e2d15c404ce13ff81e242e6ab968529d15d7ad3ad16e506bfed91c6"
+    },
+    {
+      "file": "SyntheticControl_group/predictions/track1_augmented_RBF_fold4.csv.gz",
+      "sha256": "57879d47ba9a309a76281eeeb6c174d3ecd6f97c89d9e47a7573c761bf8be315",
+      "original_prediction_sha256": "d2c1357c377648f9c92f128db376098dce230d46c2b1e02a87f77805a92bb507"
+    },
+    {
+      "file": "SyntheticControl_group/predictions/track1_augmented_OK_fold0.csv.gz",
+      "sha256": "6df539f944f48723eea3e00b5856a2015f74d7c35e9a96ff8ea06b716c108ffa",
+      "original_prediction_sha256": "afa7051afd8f66cc3b3bf1138ba6567706a8b4b13592384b638d7ca125e32991"
+    },
+    {
+      "file": "SyntheticControl_group/predictions/track1_augmented_OK_fold1.csv.gz",
+      "sha256": "a8be9172c908acdcf36808ddd1d09a18a56753c5d79fb22da796297d760deb88",
+      "original_prediction_sha256": "feda169d77dea5a64d1bab394457f3158fa10e82dc431cc436fdf410d41aa19a"
+    },
+    {
+      "file": "SyntheticControl_group/predictions/track1_augmented_OK_fold2.csv.gz",
+      "sha256": "fa36afbb67f4d45a9a244b91196f0147433de1040798eb18d45d619ebfb0760b",
+      "original_prediction_sha256": "14872fd299b7df14544f016c832dbebe2bffac0e60be2f657857fc86bd674de9"
+    },
+    {
+      "file": "SyntheticControl_group/predictions/track1_augmented_OK_fold3.csv.gz",
+      "sha256": "a4276635ed4503489820e905e3ab5da1f796a96d47668f3cda01f9e3cd29a403",
+      "original_prediction_sha256": "3d1770d2aca32c39bea9eecc21b7c7caa17e95e567a5969e7a42727859fdc024"
+    },
+    {
+      "file": "SyntheticControl_group/predictions/track1_augmented_OK_fold4.csv.gz",
+      "sha256": "03d6196f80edab097a9f040485d41a16e3ddd74948911141f681ae2ba1071ea7",
+      "original_prediction_sha256": "daa4bf1d889ce7870591928cc4ae8400956443496332e7f96ce09bcf3344a0ae"
+    },
+    {
+      "file": "SyntheticControl_group/predictions/track1_augmented_CoordinateMLP_fold0.csv.gz",
+      "sha256": "f2571ad9d77f07ca9141e0fac4700e67946c24bf13963fdf228275f8cbabccf3",
+      "original_prediction_sha256": "15841f11ab87967221c756f98ec2e14240ef6757b019752ddd1f43e4988cd6d2"
+    },
+    {
+      "file": "SyntheticControl_group/predictions/track1_augmented_CoordinateMLP_fold1.csv.gz",
+      "sha256": "e496e494cf43f669145c62c443d5e789079e9161ca0f94c170c7c19b0bf34667",
+      "original_prediction_sha256": "6d611dd83d7b3a50eb25dbc202e4db176da0bc9d49ad53370262b96f8513641c"
+    },
+    {
+      "file": "SyntheticControl_group/predictions/track1_augmented_CoordinateMLP_fold2.csv.gz",
+      "sha256": "e25eaee3f0e0a147f7159140c104d2cf37cbc4fec518adac3338ba567a4e075a",
+      "original_prediction_sha256": "27f2d8ebf5a0219c307f6c6640a09643dbc18279da20eeb4c3ffc1a58728243f"
+    },
+    {
+      "file": "SyntheticControl_group/predictions/track1_augmented_CoordinateMLP_fold3.csv.gz",
+      "sha256": "e22269d88176a5cf931f02d516fad8e79692db342ce24477ffd82ff754b009ae",
+      "original_prediction_sha256": "6cb0c0af9aa847febe846d700e8457a78cca60788957d71d5b8f06de7687f09f"
+    },
+    {
+      "file": "SyntheticControl_group/predictions/track1_augmented_CoordinateMLP_fold4.csv.gz",
+      "sha256": "fa2f98a654a86913e175dc77172e6a226f095328001e2b1f417c8ea393edaae0",
+      "original_prediction_sha256": "b6085db51a4aead5212b05201b81517d4b5d55da329108e5fe263ca6143e7fa3"
+    },
+    {
+      "file": "SyntheticControl_spatial/predictions/track1_raw_IDW_fold0.csv.gz",
+      "sha256": "3be43a6a0b6e6006293d06dc33187c0bd7431e691ff23b8ce4b1a0e87172a03d",
+      "original_prediction_sha256": "41480b897b11f36bf4b46a6f5fd87e23d7f015f138c591d5f645e499a80f666a"
+    },
+    {
+      "file": "SyntheticControl_spatial/predictions/track1_raw_IDW_fold1.csv.gz",
+      "sha256": "02766988e4ab8e618d209c475e1bde5077a5ce4fad99db77a0685d5fda3f3b7f",
+      "original_prediction_sha256": "9f638373e302f3c6167d2e063d18fb096b69fea1e5fb58d4d87d1edcaf777b2d"
+    },
+    {
+      "file": "SyntheticControl_spatial/predictions/track1_raw_IDW_fold2.csv.gz",
+      "sha256": "1c2533aa18bb21c670f0af6bd4a1f3e8560a4ad709d597b90e56943f2d6d52d7",
+      "original_prediction_sha256": "f81fd6f8be264de48463af4e4e582691237465b80dcb63910b5020464bbc0e4f"
+    },
+    {
+      "file": "SyntheticControl_spatial/predictions/track1_raw_IDW_fold3.csv.gz",
+      "sha256": "f4ca6b30d52187620a7b2dd6d8ea42017d706e224eaa1c522dfa81658283b062",
+      "original_prediction_sha256": "98f42cde0c51f50ecc7b397eff8ffee6b951e2d840b2df34eac33759aa1965b7"
+    },
+    {
+      "file": "SyntheticControl_spatial/predictions/track1_raw_IDW_fold4.csv.gz",
+      "sha256": "d1190b39a4bba537760d48fb42bf676000194e02f641eeed104e5013fcf03640",
+      "original_prediction_sha256": "06b64675f15c902bc2481a11695c6045ca27c004ccfa63d82270afe8d837dcad"
+    },
+    {
+      "file": "SyntheticControl_spatial/predictions/track1_raw_RBF_fold0.csv.gz",
+      "sha256": "eea36f74838ac9f4d0b60bcc77abad663486abca3db1c17819d9eb0e9a4cbafa",
+      "original_prediction_sha256": "505c6bfe4945104522905305826394bee46d704a626b56a094fba5da4708f989"
+    },
+    {
+      "file": "SyntheticControl_spatial/predictions/track1_raw_RBF_fold1.csv.gz",
+      "sha256": "557f8bd764594820eaa69d0bd655a75fc2e61b49e86d9d38a7e0c7afe764c764",
+      "original_prediction_sha256": "74a05aad7a6b71e87cd4e9adcb7b379737f18e61646b539be2eaf7096ed0533f"
+    },
+    {
+      "file": "SyntheticControl_spatial/predictions/track1_raw_RBF_fold2.csv.gz",
+      "sha256": "64bc73e6f899326095ab0faff8f0a0d7945fadc4877bdb9ca6218c787e241d5a",
+      "original_prediction_sha256": "4a2b694bd66759aaf7e67a245f2578d0c38848d4bb48003e897a77a788c54c8f"
+    },
+    {
+      "file": "SyntheticControl_spatial/predictions/track1_raw_RBF_fold3.csv.gz",
+      "sha256": "a4178fc22c63eba8a20a1e126d635d3f91c31bf7984366779b8005543844286a",
+      "original_prediction_sha256": "2287cc861e68fed43b0bd125f98134849e1e47ea12084081c298478f66187b56"
+    },
+    {
+      "file": "SyntheticControl_spatial/predictions/track1_raw_RBF_fold4.csv.gz",
+      "sha256": "948e8430ef02002bc94ba5b492277fd5c3c67c577bf9197c99a0a054d11eec11",
+      "original_prediction_sha256": "587e380322cdf2ce8ef03f4bf1c8dae0fac1793c59cbb8ccdd2a1310a1c5e2f4"
+    },
+    {
+      "file": "SyntheticControl_spatial/predictions/track1_raw_OK_fold0.csv.gz",
+      "sha256": "2b2a19af264e7744b41065561324bd0bcda43077696bfbc67567cd6479c00f9e",
+      "original_prediction_sha256": "37a796cd5b6f2440f56167c58b4f23aa96af19c69402db96f49bdd290bc6d33d"
+    },
+    {
+      "file": "SyntheticControl_spatial/predictions/track1_raw_OK_fold1.csv.gz",
+      "sha256": "2d84b426f3762950706458b7d1c34dd6cdc4cd1a1144c23c0aee31adf5cb65a0",
+      "original_prediction_sha256": "abaf19a30162e05d441f3fe2dfadce7109389ce9b5d953497bf033eaa26f699f"
+    },
+    {
+      "file": "SyntheticControl_spatial/predictions/track1_raw_OK_fold2.csv.gz",
+      "sha256": "d6b861a1a98af5f46a02911e443cd8afb99abc60829d542fe13f9d5d7192ad26",
+      "original_prediction_sha256": "334322ae2c140da69c3aff1530ed5fe9e9b5a55070795a112eb0a70f66a8e9e3"
+    },
+    {
+      "file": "SyntheticControl_spatial/predictions/track1_raw_OK_fold3.csv.gz",
+      "sha256": "6dc4bc0e3411473a73981c4a69d959aff8c17fab0d1138576d350dab0113eb5f",
+      "original_prediction_sha256": "dddc0a2cc796cd14951229db06f91a9fc472e7d7d5c3c1fac3f3410fbc1c42dd"
+    },
+    {
+      "file": "SyntheticControl_spatial/predictions/track1_raw_OK_fold4.csv.gz",
+      "sha256": "80fa55cfcc66abfbbd0160c07f5b22c5a6c47cc19b648674e3e38f5d4c0172b7",
+      "original_prediction_sha256": "3c43a44647bee4e4fd87b98501edbe9b99b76ce6bec484aea70474617a805584"
+    },
+    {
+      "file": "SyntheticControl_spatial/predictions/track1_raw_CoordinateMLP_fold0.csv.gz",
+      "sha256": "576726620bcde24bb3154c4b517e8041804ef030f94bfad5fad2c4544b49b651",
+      "original_prediction_sha256": "f6e7067abb44eb1c6a61c573ad99264b5896b0696c5ac7e3d845be13b20ee05d"
+    },
+    {
+      "file": "SyntheticControl_spatial/predictions/track1_raw_CoordinateMLP_fold1.csv.gz",
+      "sha256": "a13cd796e6ed442fc0b943b41eafd08d189e2d5e7541d9fc8efe918635742e45",
+      "original_prediction_sha256": "def6165479e47af503bfc32bec0da7b60e8ee55fd67b6bd34fca94f6534ef6da"
+    },
+    {
+      "file": "SyntheticControl_spatial/predictions/track1_raw_CoordinateMLP_fold2.csv.gz",
+      "sha256": "ee6b71d2024002e479f0331744d7f48d3d03a1979ce2a173f15b26484e21b60e",
+      "original_prediction_sha256": "5e4ec1d4fab2584cd7c0055465f3327206ed4490a256fe1fdfcc4b4029a438cd"
+    },
+    {
+      "file": "SyntheticControl_spatial/predictions/track1_raw_CoordinateMLP_fold3.csv.gz",
+      "sha256": "26ab9bbbbe30153b5a49f8b1d9da2f99b404e6b1e9ae0d35ce897f8a46a89315",
+      "original_prediction_sha256": "91301b67acb95eba7cdb28ce4871a59f7a9a14d6efb292fa36ad4ee7f4155651"
+    },
+    {
+      "file": "SyntheticControl_spatial/predictions/track1_raw_CoordinateMLP_fold4.csv.gz",
+      "sha256": "e321ab3dd0596adbb5a19bcdcff483545eb9214a8c2e7894ec202d36648fd517",
+      "original_prediction_sha256": "a6d19f1341aa8de11f09959d94fdb162af6d60c16af9f1c581bcabc8ee9872ba"
+    },
+    {
+      "file": "SyntheticControl_spatial/predictions/track1_augmented_IDW_fold0.csv.gz",
+      "sha256": "a622cb56c994c51d885ee380be28553cbc4cde70434d63b5c99b91cfe26b6639",
+      "original_prediction_sha256": "95ec91e554d4a715bb7b3a4063ab846716e5fd71b547f3ffdaf21267aeebdb74"
+    },
+    {
+      "file": "SyntheticControl_spatial/predictions/track1_augmented_IDW_fold1.csv.gz",
+      "sha256": "252ca7e5fc2b2ee812d8e4f2fa22eb84f0784cdaba5865cccb29f223459db22e",
+      "original_prediction_sha256": "4cc036282eef068427c7c429a5fa51e8d81d912786ef80374d70af575356fe3b"
+    },
+    {
+      "file": "SyntheticControl_spatial/predictions/track1_augmented_IDW_fold2.csv.gz",
+      "sha256": "299383bb51fbe59598b964b9abea26e4d3a4c77b2394aadbd95401357bfb4f75",
+      "original_prediction_sha256": "60c7337889d3ef33da892c1e6cf24000df8bed16f8b906aaf8358458eb83d16c"
+    },
+    {
+      "file": "SyntheticControl_spatial/predictions/track1_augmented_IDW_fold3.csv.gz",
+      "sha256": "3df4b814e1e88349c051b62be28558d23dd5ec4804bf103db37d3170d747adab",
+      "original_prediction_sha256": "3116408d7ef0b6ae1cdd7dcc4ccdb8499ccd82083f6390584c481f48e452770b"
+    },
+    {
+      "file": "SyntheticControl_spatial/predictions/track1_augmented_IDW_fold4.csv.gz",
+      "sha256": "4ab07b5df3c9604a1abdaa93d82bea7a1e66574311f7b108c48753fa9548f404",
+      "original_prediction_sha256": "dfb7f1c8244ecb6e296f1053e52393b801306c025129b7fe86e244a72e9639e5"
+    },
+    {
+      "file": "SyntheticControl_spatial/predictions/track1_augmented_RBF_fold0.csv.gz",
+      "sha256": "86d5f98ab69ebdf28920cd9ce0a9fe45aaa1e98f5d448dfecc6d1c0f53ad2ea3",
+      "original_prediction_sha256": "477359139d7e8b715d1ca787941fdb0d41cae6e2447468dd3c78b1481c850505"
+    },
+    {
+      "file": "SyntheticControl_spatial/predictions/track1_augmented_RBF_fold1.csv.gz",
+      "sha256": "e5dcbd820ebef89a4f5853d02e03516c48d066ea5a9132510de6884a913ecd0e",
+      "original_prediction_sha256": "ca9536e6f5458a84d4e79f6b9b99ad96b44d033c4c14680bcf499985d613c145"
+    },
+    {
+      "file": "SyntheticControl_spatial/predictions/track1_augmented_RBF_fold2.csv.gz",
+      "sha256": "8e33a9e52af7c129950bc77abc06be2c0c056573b0cb097637a0812434bf0fc0",
+      "original_prediction_sha256": "b2f9d5444df6943e69de7f4ecd12dd026bff2b08baec9e89ee7f8b13b9e3c6b7"
+    },
+    {
+      "file": "SyntheticControl_spatial/predictions/track1_augmented_RBF_fold3.csv.gz",
+      "sha256": "49f47e8a3aee9c3f0c7f6efce1024d185f006a05edc02e15aa53121528c58b1d",
+      "original_prediction_sha256": "752d154615956f071f38576f9d84dca75227bb5ef30bc7d7d581ea381f674105"
+    },
+    {
+      "file": "SyntheticControl_spatial/predictions/track1_augmented_RBF_fold4.csv.gz",
+      "sha256": "985f4aba1efde75a6c81f59fbc9bc405945a3f25b6262548594874c6ac8061df",
+      "original_prediction_sha256": "1f5c96632486ba1405e83609fc7b2bde030221b3b26725236d300b26d8c79a99"
+    },
+    {
+      "file": "SyntheticControl_spatial/predictions/track1_augmented_OK_fold0.csv.gz",
+      "sha256": "5bbc991c9f73f694bc18d2d8ab5277d95dcc27174a1ceb0edf0fb03b45e29743",
+      "original_prediction_sha256": "2bd452d5888d9391d6b42ad611f241bd85f7fb890469b49f0809da94437f993a"
+    },
+    {
+      "file": "SyntheticControl_spatial/predictions/track1_augmented_OK_fold1.csv.gz",
+      "sha256": "0e110d547bcca53a13441b704bcbd7e8e58c48ad3a22ae7ac14ef1eaa358c6cc",
+      "original_prediction_sha256": "16f574aa8616b2351d5b1cd91db382fb1d8ddb8eb9a27cdc69bff5de466b8870"
+    },
+    {
+      "file": "SyntheticControl_spatial/predictions/track1_augmented_OK_fold2.csv.gz",
+      "sha256": "2196c499b65e239c831838bea69dd31d488efa25beed4349acd14a18fff77fab",
+      "original_prediction_sha256": "0ea297fc64e1f3873a359fb1c097cf3f2da237b4a831c54efb80ffaa585ef25d"
+    },
+    {
+      "file": "SyntheticControl_spatial/predictions/track1_augmented_OK_fold3.csv.gz",
+      "sha256": "fc262fa8ca3118b0e96ebb7c8cdaedaa7624914c52564868e1c4db63ca7c0206",
+      "original_prediction_sha256": "56142677cd7a9006fef1a8493a9b14f469fe7f7ca7dc7b539528090bfbabded6"
+    },
+    {
+      "file": "SyntheticControl_spatial/predictions/track1_augmented_OK_fold4.csv.gz",
+      "sha256": "3a6262559b53f69690697ab76ac047909f7295a49ed33077cf5bc964799eefeb",
+      "original_prediction_sha256": "1dc3520f10454ffd855af58a2c13a07d23a26d82709b60bcb960d289aad8abbb"
+    },
+    {
+      "file": "SyntheticControl_spatial/predictions/track1_augmented_CoordinateMLP_fold0.csv.gz",
+      "sha256": "3631ab60d0e9df41b23d8efcc876fea7da01853643bda3101b51c112c93f38c4",
+      "original_prediction_sha256": "2a01b94ca46270c3544ca33463e564327035c6f862d43613cfafb6ce84cff437"
+    },
+    {
+      "file": "SyntheticControl_spatial/predictions/track1_augmented_CoordinateMLP_fold1.csv.gz",
+      "sha256": "bc42e4ee7134d3c4b8e55c344754b7b29df59c36c8e858fcb4d32be4224ece82",
+      "original_prediction_sha256": "054818ab73c8677d8ba9910e293e4c45a23ad9e9b618e7ce7286ac7839260cbc"
+    },
+    {
+      "file": "SyntheticControl_spatial/predictions/track1_augmented_CoordinateMLP_fold2.csv.gz",
+      "sha256": "ee29699eb4dcf2738238a5b05c91e17178ffb9e9123d5e54e375b0b2d0d3b96d",
+      "original_prediction_sha256": "d60441d77520a80b6ef7885eaa797fc59af7020a6ead503fd78db51619fb5294"
+    },
+    {
+      "file": "SyntheticControl_spatial/predictions/track1_augmented_CoordinateMLP_fold3.csv.gz",
+      "sha256": "ce8aa75e6402e86cb1254441b011baa5fa17da87f47fdc9cc2a68927a1487098",
+      "original_prediction_sha256": "b00efefb8c9a9174bd98dbe4cd3215299991ee1300414f37587324a7ed04d047"
+    },
+    {
+      "file": "SyntheticControl_spatial/predictions/track1_augmented_CoordinateMLP_fold4.csv.gz",
+      "sha256": "4cde75b9765d69c4f95e4424376bc62bbf23fb6f2b04d3fb222f0ed94ac28f73",
+      "original_prediction_sha256": "de06b91948d2ef81f2ac487a70d739881618161ad5b32af1cad2ba030c8cc487"
+    }
+  ]
+}

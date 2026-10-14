@@ -1,0 +1,4 @@
+dataset,boreholes,source_rows,boundary_rows,excluded_terminal_boundaries,labelled_points,grid_points,unobserved_points,ambiguous_points,step,interface_elevation_span,global_order_valid,source_classes,sampled_classes,unsampled_classes
+Zhengzhou,69,692,623,69,10390,10390,0,0,0.5,165.5,True,7,7,
+Kimberlina,69,583,514,69,30336,40452,10110,6,5.0,4419.744852400001,False,13,12,eocene
+SyntheticControl,45,315,315,0,24070,24070,0,0,0.5,506.62463246228106,True,7,7,

@@ -1,0 +1,12 @@
+{
+  "records_verified": 360,
+  "original_records_reused_exactly": 80,
+  "new_fits_verified": 280,
+  "neural_outer_refits_including_reused": 240,
+  "seed_level_summaries": 72,
+  "configuration_summaries": 24,
+  "scores_recomputed": true,
+  "support_and_fold_separation": true,
+  "all_seeds_retained": true,
+  "new_hypothesis_tests": 0
+}

@@ -1,0 +1,46 @@
+{
+  "purpose": "Reconstruct specific legacy adapter and scoring counterexamples; not new model predictions",
+  "datasets": {
+    "Zhengzhou": {
+      "boreholes": 69,
+      "legacy_points": 10706,
+      "legacy_perfect_macro_f1": 0.6542443064182193,
+      "legacy_true_boundary_order_disagreement": 0.2463768115942029,
+      "points_supported": 10701,
+      "points_unobserved": 0,
+      "points_ambiguous": 0,
+      "points_wrong_label": 5,
+      "inferred_top_mismatches": 0,
+      "source_sha256": {
+        "Drilling_and_distributio_data/基本情况表.xlsx": "448a53d49c3e6ebe1280ba4779b3e5eb1126f12ff604c8394ca225fa4290a01c",
+        "Drilling_and_distributio_data/分层信息表.xlsx": "8a6768443b86b07ed651e0881fc92983480d022d8b2b09ec45410b6018c94eac"
+      }
+    },
+    "Kimberlina": {
+      "boreholes": 69,
+      "legacy_points": 40766,
+      "legacy_perfect_macro_f1": 0.6499442586399108,
+      "legacy_true_boundary_order_disagreement": 0.15942028985507245,
+      "points_supported": 30606,
+      "points_unobserved": 10143,
+      "points_ambiguous": 17,
+      "points_wrong_label": 0,
+      "inferred_top_mismatches": 84,
+      "source_sha256": {
+        "data/kim_ready.csv": "a91445cb960526398e25d8c1d2ab3b3a32f7d35feaf33e18887629b242256ab6"
+      }
+    },
+    "SyntheticControl": {
+      "boreholes": 45,
+      "legacy_points": 24173,
+      "legacy_perfect_macro_f1": 1.0,
+      "legacy_true_boundary_order_disagreement": 0.0,
+      "points_supported": 24173,
+      "points_unobserved": 0,
+      "points_ambiguous": 0,
+      "points_wrong_label": 0,
+      "inferred_top_mismatches": 0,
+      "source_sha256": {}
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "prediction_files_verified": 360,
+  "neural_outer_refits_verified": 60,
+  "configuration_summaries": 72,
+  "common_support_and_fold_separation": true,
+  "scores_recomputed": true
+}

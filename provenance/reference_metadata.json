@@ -1,0 +1,353 @@
+[
+  {
+    "local_key": "ref_gempy",
+    "title": [
+      "GemPy 1.0: open-source stochastic geological modeling and inversion"
+    ],
+    "doi": "10.5194/gmd-12-1-2019",
+    "container": [
+      "Geoscientific Model Development"
+    ],
+    "volume": "12",
+    "issue": "1",
+    "pages": "1-32",
+    "online": {
+      "date-parts": [
+        [
+          2019,
+          1,
+          2
+        ]
+      ]
+    },
+    "print": null,
+    "authors": [
+      {
+        "given": "Miguel",
+        "family": "de la Varga"
+      },
+      {
+        "given": "Alexander",
+        "family": "Schaaf"
+      },
+      {
+        "given": "Florian",
+        "family": "Wellmann"
+      }
+    ],
+    "verification": "Crossref deposited bibliographic metadata inspected; not evidence of full-text review"
+  },
+  {
+    "local_key": "ref_hardy",
+    "title": [
+      "Multiquadric equations of topography and other irregular surfaces"
+    ],
+    "doi": "10.1029/jb076i008p01905",
+    "container": [
+      "Journal of Geophysical Research"
+    ],
+    "volume": "76",
+    "issue": "8",
+    "pages": "1905-1915",
+    "online": {
+      "date-parts": [
+        [
+          2012,
+          9,
+          20
+        ]
+      ]
+    },
+    "print": {
+      "date-parts": [
+        [
+          1971,
+          3,
+          10
+        ]
+      ]
+    },
+    "authors": [
+      {
+        "given": "Rolland L.",
+        "family": "Hardy"
+      }
+    ],
+    "verification": "Crossref deposited bibliographic metadata inspected; not evidence of full-text review"
+  },
+  {
+    "local_key": "ref_matheron",
+    "title": [
+      "Principles of geostatistics"
+    ],
+    "doi": "10.2113/gsecongeo.58.8.1246",
+    "container": [
+      "Economic Geology"
+    ],
+    "volume": "58",
+    "issue": "8",
+    "pages": "1246-1266",
+    "online": {
+      "date-parts": [
+        [
+          1963,
+          12,
+          1
+        ]
+      ]
+    },
+    "print": {
+      "date-parts": [
+        [
+          1963,
+          12,
+          1
+        ]
+      ]
+    },
+    "authors": [
+      {
+        "given": "Georges",
+        "family": "Matheron"
+      }
+    ],
+    "verification": "Crossref deposited bibliographic metadata inspected; not evidence of full-text review"
+  },
+  {
+    "local_key": "ref_rf",
+    "title": [
+      "Random Forests"
+    ],
+    "doi": "10.1023/a:1010933404324",
+    "container": [
+      "Machine Learning"
+    ],
+    "volume": "45",
+    "issue": "1",
+    "pages": "5-32",
+    "online": null,
+    "print": {
+      "date-parts": [
+        [
+          2001,
+          10
+        ]
+      ]
+    },
+    "authors": [
+      {
+        "given": "Leo",
+        "family": "Breiman"
+      }
+    ],
+    "verification": "Crossref deposited bibliographic metadata inspected; not evidence of full-text review"
+  },
+  {
+    "local_key": "ref_roberts",
+    "title": [
+      "Cross‐validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure"
+    ],
+    "doi": "10.1111/ecog.02881",
+    "container": [
+      "Ecography"
+    ],
+    "volume": "40",
+    "issue": "8",
+    "pages": "913-929",
+    "online": {
+      "date-parts": [
+        [
+          2017,
+          3,
+          3
+        ]
+      ]
+    },
+    "print": {
+      "date-parts": [
+        [
+          2017,
+          8
+        ]
+      ]
+    },
+    "authors": [
+      {
+        "given": "David R.",
+        "family": "Roberts"
+      },
+      {
+        "given": "Volker",
+        "family": "Bahn"
+      },
+      {
+        "given": "Simone",
+        "family": "Ciuti"
+      },
+      {
+        "given": "Mark S.",
+        "family": "Boyce"
+      },
+      {
+        "given": "Jane",
+        "family": "Elith"
+      },
+      {
+        "given": "Gurutzeta",
+        "family": "Guillera‐Arroita"
+      },
+      {
+        "given": "Severin",
+        "family": "Hauenstein"
+      },
+      {
+        "given": "José J.",
+        "family": "Lahoz‐Monfort"
+      },
+      {
+        "given": "Boris",
+        "family": "Schröder"
+      },
+      {
+        "given": "Wilfried",
+        "family": "Thuiller"
+      },
+      {
+        "given": "David I.",
+        "family": "Warton"
+      },
+      {
+        "given": "Brendan A.",
+        "family": "Wintle"
+      },
+      {
+        "given": "Florian",
+        "family": "Hartig"
+      },
+      {
+        "given": "Carsten F.",
+        "family": "Dormann"
+      }
+    ],
+    "verification": "Crossref deposited bibliographic metadata inspected; not evidence of full-text review"
+  },
+  {
+    "local_key": "ref_shepard",
+    "title": [
+      "A two-dimensional interpolation function for irregularly-spaced data"
+    ],
+    "doi": "10.1145/800186.810616",
+    "container": [
+      "Proceedings of the 1968 23rd ACM national conference on   -"
+    ],
+    "volume": null,
+    "issue": null,
+    "pages": "517-524",
+    "online": null,
+    "print": {
+      "date-parts": [
+        [
+          1968
+        ]
+      ]
+    },
+    "authors": [
+      {
+        "given": "Donald",
+        "family": "Shepard"
+      }
+    ],
+    "verification": "Crossref deposited bibliographic metadata inspected; not evidence of full-text review"
+  },
+  {
+    "local_key": "ref_valavi",
+    "title": [
+      "<scp>block</scp>\n                    <scp>CV</scp>\n                    : An\n                    <scp>r</scp>\n                    package for generating spatially or environmentally separated folds for\n                    <i>k</i>\n                    ‐fold cross‐validation of species distribution models"
+    ],
+    "doi": "10.1111/2041-210x.13107",
+    "container": [
+      "Methods in Ecology and Evolution"
+    ],
+    "volume": "10",
+    "issue": "2",
+    "pages": "225-232",
+    "online": {
+      "date-parts": [
+        [
+          2018,
+          11,
+          8
+        ]
+      ]
+    },
+    "print": {
+      "date-parts": [
+        [
+          2019,
+          2
+        ]
+      ]
+    },
+    "authors": [
+      {
+        "given": "Roozbeh",
+        "family": "Valavi"
+      },
+      {
+        "given": "Jane",
+        "family": "Elith"
+      },
+      {
+        "given": "José J.",
+        "family": "Lahoz‐Monfort"
+      },
+      {
+        "given": "Gurutzeta",
+        "family": "Guillera‐Arroita"
+      }
+    ],
+    "verification": "Crossref deposited bibliographic metadata inspected; not evidence of full-text review"
+  },
+  {
+    "local_key": "ref_xgb",
+    "title": [
+      "XGBoost"
+    ],
+    "doi": "10.1145/2939672.2939785",
+    "container": [
+      "Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining"
+    ],
+    "volume": null,
+    "issue": null,
+    "pages": "785-794",
+    "online": {
+      "date-parts": [
+        [
+          2016,
+          8,
+          13
+        ]
+      ]
+    },
+    "print": {
+      "date-parts": [
+        [
+          2016,
+          8,
+          13
+        ]
+      ]
+    },
+    "authors": [
+      {
+        "given": "Tianqi",
+        "family": "Chen"
+      },
+      {
+        "given": "Carlos",
+        "family": "Guestrin"
+      }
+    ],
+    "verification": "Crossref deposited bibliographic metadata inspected; not evidence of full-text review"
+  }
+]

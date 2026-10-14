@@ -1,0 +1,1094 @@
+{
+  "bins": [
+    "0",
+    "1\u20132",
+    "3\u20136"
+  ],
+  "bin_definition": "unambiguous labels among six nearest outer-training donor columns at query depth",
+  "checks": [
+    {
+      "dataset": "Zhengzhou",
+      "cv": "group",
+      "fold": 0,
+      "target_noninterference": true
+    },
+    {
+      "dataset": "Zhengzhou",
+      "cv": "group",
+      "fold": 1,
+      "target_noninterference": true
+    },
+    {
+      "dataset": "Zhengzhou",
+      "cv": "group",
+      "fold": 2,
+      "target_noninterference": true
+    },
+    {
+      "dataset": "Zhengzhou",
+      "cv": "group",
+      "fold": 3,
+      "target_noninterference": true
+    },
+    {
+      "dataset": "Zhengzhou",
+      "cv": "group",
+      "fold": 4,
+      "target_noninterference": true
+    },
+    {
+      "dataset": "Zhengzhou",
+      "cv": "spatial",
+      "fold": 0,
+      "target_noninterference": true
+    },
+    {
+      "dataset": "Zhengzhou",
+      "cv": "spatial",
+      "fold": 1,
+      "target_noninterference": true
+    },
+    {
+      "dataset": "Zhengzhou",
+      "cv": "spatial",
+      "fold": 2,
+      "target_noninterference": true
+    },
+    {
+      "dataset": "Zhengzhou",
+      "cv": "spatial",
+      "fold": 3,
+      "target_noninterference": true
+    },
+    {
+      "dataset": "Zhengzhou",
+      "cv": "spatial",
+      "fold": 4,
+      "target_noninterference": true
+    },
+    {
+      "dataset": "Kimberlina",
+      "cv": "group",
+      "fold": 0,
+      "target_noninterference": true
+    },
+    {
+      "dataset": "Kimberlina",
+      "cv": "group",
+      "fold": 1,
+      "target_noninterference": true
+    },
+    {
+      "dataset": "Kimberlina",
+      "cv": "group",
+      "fold": 2,
+      "target_noninterference": true
+    },
+    {
+      "dataset": "Kimberlina",
+      "cv": "group",
+      "fold": 3,
+      "target_noninterference": true
+    },
+    {
+      "dataset": "Kimberlina",
+      "cv": "group",
+      "fold": 4,
+      "target_noninterference": true
+    },
+    {
+      "dataset": "Kimberlina",
+      "cv": "spatial",
+      "fold": 0,
+      "target_noninterference": true
+    },
+    {
+      "dataset": "Kimberlina",
+      "cv": "spatial",
+      "fold": 1,
+      "target_noninterference": true
+    },
+    {
+      "dataset": "Kimberlina",
+      "cv": "spatial",
+      "fold": 2,
+      "target_noninterference": true
+    },
+    {
+      "dataset": "Kimberlina",
+      "cv": "spatial",
+      "fold": 3,
+      "target_noninterference": true
+    },
+    {
+      "dataset": "Kimberlina",
+      "cv": "spatial",
+      "fold": 4,
+      "target_noninterference": true
+    }
+  ],
+  "new_model_fits": 0,
+  "subgroup_estimand": "borehole-balanced within stratum, with recomputed active-class support; not causal attribution",
+  "input_hashes": [
+    {
+      "path": "Zhengzhou_group/predictions/track2_raw_RandomForest_fold0.csv.gz",
+      "sha256": "8c01cce8acf52fa8ab9e346a93af941e9bce60f16960a55c1401c17bb2aaa23e"
+    },
+    {
+      "path": "Zhengzhou_group/predictions/track2_raw_RandomForest_fold1.csv.gz",
+      "sha256": "f380b8101d5463d722562137b9a33149156b53a24119c0ac211eea630cefde1c"
+    },
+    {
+      "path": "Zhengzhou_group/predictions/track2_raw_RandomForest_fold2.csv.gz",
+      "sha256": "3b6b5c3c357df763c8a8fb631bed15d71c138424737a45f163484409cbab5c1a"
+    },
+    {
+      "path": "Zhengzhou_group/predictions/track2_raw_RandomForest_fold3.csv.gz",
+      "sha256": "60d0991e4815eb3bc4fac120c78ac92b66863803236473d4e081c7534166b9a1"
+    },
+    {
+      "path": "Zhengzhou_group/predictions/track2_raw_RandomForest_fold4.csv.gz",
+      "sha256": "5c215dd7bb7fb93bf9549001ffe31be5ad34ce3c2a658670560e5510856f3261"
+    },
+    {
+      "path": "Zhengzhou_group/predictions/track2_raw_XGBoost_fold0.csv.gz",
+      "sha256": "8bfb20592de71c16fd2e356ac3c5266a9789e35056cdd46c9b985e2dce4bf7cc"
+    },
+    {
+      "path": "Zhengzhou_group/predictions/track2_raw_XGBoost_fold1.csv.gz",
+      "sha256": "93e14b03e3868105529ff07f91cfd2c4189f4f289c799c6ffc5101f3b26e34ca"
+    },
+    {
+      "path": "Zhengzhou_group/predictions/track2_raw_XGBoost_fold2.csv.gz",
+      "sha256": "dddec31a56d4c4b118a28efed588232e876d9d09edd82edaa76790c48e89ae6b"
+    },
+    {
+      "path": "Zhengzhou_group/predictions/track2_raw_XGBoost_fold3.csv.gz",
+      "sha256": "0983a31ab7fd4dac4befed5ec1ab1ca77df671442378020d856030ff29436954"
+    },
+    {
+      "path": "Zhengzhou_group/predictions/track2_raw_XGBoost_fold4.csv.gz",
+      "sha256": "5cdd7b0cb397b4a95ab62dbace14f34d7aeaba925e036ec73ac4a88e44444ed9"
+    },
+    {
+      "path": "Zhengzhou_group/predictions/track2_raw_LightGBM_fold0.csv.gz",
+      "sha256": "2babe1f75bcc7394232914fadbec9efabac8ca8cda6537bef620f091de38a70a"
+    },
+    {
+      "path": "Zhengzhou_group/predictions/track2_raw_LightGBM_fold1.csv.gz",
+      "sha256": "a7931e0e8b754cf40edbe29cc83d0df90e4170b45bc76721118aa7adf8c79d21"
+    },
+    {
+      "path": "Zhengzhou_group/predictions/track2_raw_LightGBM_fold2.csv.gz",
+      "sha256": "1115bf4e642563817b4334c7a850f15c6ffc954ac7cd5165295311d36a58b8fc"
+    },
+    {
+      "path": "Zhengzhou_group/predictions/track2_raw_LightGBM_fold3.csv.gz",
+      "sha256": "18c1e4326756dfe0112fd4f27436129881c843d91d56380a61ae32a521d4c75a"
+    },
+    {
+      "path": "Zhengzhou_group/predictions/track2_raw_LightGBM_fold4.csv.gz",
+      "sha256": "7471b01bc59bafab68f40b7f8ef925a88632eebc9f04db4f40451c3e6f8fd951"
+    },
+    {
+      "path": "Zhengzhou_group/predictions/track2_raw_ResidualMLP_fold0.csv.gz",
+      "sha256": "d8b65c2036399f259d96b277e0785991708bc739cfdbc72936357e51ce334cc0"
+    },
+    {
+      "path": "Zhengzhou_group/predictions/track2_raw_ResidualMLP_fold1.csv.gz",
+      "sha256": "99eaaa80f21df7f634fa4c0841f3df669db4a25da1c31d2705a79e6dab064e0c"
+    },
+    {
+      "path": "Zhengzhou_group/predictions/track2_raw_ResidualMLP_fold2.csv.gz",
+      "sha256": "eb133b9ab86bdc9557069834774e469087433eed8a940f1f2c51bf4ffd33aab1"
+    },
+    {
+      "path": "Zhengzhou_group/predictions/track2_raw_ResidualMLP_fold3.csv.gz",
+      "sha256": "44a93a393d8a89f1a90a8e388f8faded7e62ba4706e01f32e17c2efe1d44e394"
+    },
+    {
+      "path": "Zhengzhou_group/predictions/track2_raw_ResidualMLP_fold4.csv.gz",
+      "sha256": "723f7cef149e82073ad976473d2d061679f08f380c76007e408c6f7541656c56"
+    },
+    {
+      "path": "Zhengzhou_group/predictions/track2_raw_DepthPrior_fold0.csv.gz",
+      "sha256": "fbc6c04a132558685090c45cbbb7dfd308e4dcc3c6bd99800dabbb1f495f9e4d"
+    },
+    {
+      "path": "Zhengzhou_group/predictions/track2_raw_DepthPrior_fold1.csv.gz",
+      "sha256": "7c56fa264434b9014f0269837c43f1f6c320d15a09594f1d5241258e082bc173"
+    },
+    {
+      "path": "Zhengzhou_group/predictions/track2_raw_DepthPrior_fold2.csv.gz",
+      "sha256": "fa31471f5cb2e278d0a4ae1d63e3da6e82f58366efad81ad574a79a7de8a498c"
+    },
+    {
+      "path": "Zhengzhou_group/predictions/track2_raw_DepthPrior_fold3.csv.gz",
+      "sha256": "80e96194d09497f485f8b791e473f059f42477e7235c09d67292b4729f2f9b3f"
+    },
+    {
+      "path": "Zhengzhou_group/predictions/track2_raw_DepthPrior_fold4.csv.gz",
+      "sha256": "84ff3509f7067ded10a4d82a73ddd3ae12706af784546dfc2717d5b84a690158"
+    },
+    {
+      "path": "Zhengzhou_group/predictions/track2_raw_NearestObservedColumn_fold0.csv.gz",
+      "sha256": "3969469d7c45615fa937cc22feff6136dd228388412f5c9747c530677d060a38"
+    },
+    {
+      "path": "Zhengzhou_group/predictions/track2_raw_NearestObservedColumn_fold1.csv.gz",
+      "sha256": "cdb66d8bbc5dbc06fa1a25409aa486cb0b894e3ee5864442f474c9b9d00d75f7"
+    },
+    {
+      "path": "Zhengzhou_group/predictions/track2_raw_NearestObservedColumn_fold2.csv.gz",
+      "sha256": "14cb26e5e48a0d73e602b81437db0df824d5ce7ee3f737d414a0985a7dff582d"
+    },
+    {
+      "path": "Zhengzhou_group/predictions/track2_raw_NearestObservedColumn_fold3.csv.gz",
+      "sha256": "b969f76de72adc2f6ce83383d5df710e9f7a5f8506209594142356f339164029"
+    },
+    {
+      "path": "Zhengzhou_group/predictions/track2_raw_NearestObservedColumn_fold4.csv.gz",
+      "sha256": "fdde1972b978f034eba4dedf9f5ca43cb7e69241b8bcd717d507460741fd68c9"
+    },
+    {
+      "path": "Zhengzhou_group/predictions/track2_augmented_RandomForest_fold0.csv.gz",
+      "sha256": "0bbdd87d46004598a8fda8e559ce85430e4cbb51b7fe1cc3f8e6a3f28012a2ab"
+    },
+    {
+      "path": "Zhengzhou_group/predictions/track2_augmented_RandomForest_fold1.csv.gz",
+      "sha256": "420f01041b674f05fc1fc24bb25b49592ce8e86ff76e05056adc9f86e1a8daa3"
+    },
+    {
+      "path": "Zhengzhou_group/predictions/track2_augmented_RandomForest_fold2.csv.gz",
+      "sha256": "01825599786fe04fe7c75ce8c8d0e282c6bcca01941807982ae1fb394ec57784"
+    },
+    {
+      "path": "Zhengzhou_group/predictions/track2_augmented_RandomForest_fold3.csv.gz",
+      "sha256": "b404c1c184b8f8c2792a11bb0eca3ea30ee1d08eaf64112a90cd816712261e8c"
+    },
+    {
+      "path": "Zhengzhou_group/predictions/track2_augmented_RandomForest_fold4.csv.gz",
+      "sha256": "824157547ad6230f54efe8c9c225a60ca081e25b0c0b696c69d54bcc14978eea"
+    },
+    {
+      "path": "Zhengzhou_group/predictions/track2_augmented_XGBoost_fold0.csv.gz",
+      "sha256": "25bb8118add31109fb33202d4694c04194ba2a277dc61ce578d9c0898dc8625c"
+    },
+    {
+      "path": "Zhengzhou_group/predictions/track2_augmented_XGBoost_fold1.csv.gz",
+      "sha256": "7443fe62fcfb9512a68c657bd82725b005215139b6a04d1ee9935477e1e08624"
+    },
+    {
+      "path": "Zhengzhou_group/predictions/track2_augmented_XGBoost_fold2.csv.gz",
+      "sha256": "87b2656b062dff9e33967bdc30c96a10d0fd546b3990ee06f65b3124c9a746dd"
+    },
+    {
+      "path": "Zhengzhou_group/predictions/track2_augmented_XGBoost_fold3.csv.gz",
+      "sha256": "a6f1f482bad47f63a7255957f0094e2a8a8742890c308ccc4810fdac75116f3f"
+    },
+    {
+      "path": "Zhengzhou_group/predictions/track2_augmented_XGBoost_fold4.csv.gz",
+      "sha256": "3c408926665512680809a2c7f69d076a1a9ce4952ab60466aeeb55d0049bbad2"
+    },
+    {
+      "path": "Zhengzhou_group/predictions/track2_augmented_LightGBM_fold0.csv.gz",
+      "sha256": "a0130e18d4cd876c96bea56c6ab5d3c4361f6b002bde05a2a93c8840a5c855e8"
+    },
+    {
+      "path": "Zhengzhou_group/predictions/track2_augmented_LightGBM_fold1.csv.gz",
+      "sha256": "c9707cb7ede94fdd41058d091dbfdc5caf0e6ea9e14463783a874b9e79ce4707"
+    },
+    {
+      "path": "Zhengzhou_group/predictions/track2_augmented_LightGBM_fold2.csv.gz",
+      "sha256": "9f8096a3089450f68de773c45982fa22a635e8d3bcc5e165bd7c2701c88f40c8"
+    },
+    {
+      "path": "Zhengzhou_group/predictions/track2_augmented_LightGBM_fold3.csv.gz",
+      "sha256": "186a9366a090468856a3a68766a698d3ffd0d3d17345a40d5c89d80474f2c3db"
+    },
+    {
+      "path": "Zhengzhou_group/predictions/track2_augmented_LightGBM_fold4.csv.gz",
+      "sha256": "8dbbbc1316852b8f71725ade7235321d84237be516c769d800fdfc2596047484"
+    },
+    {
+      "path": "Zhengzhou_group/predictions/track2_augmented_ResidualMLP_fold0.csv.gz",
+      "sha256": "1dd7755955db97adab1ba8f546f404e7a8aa590183262ade270aef7a61fcff6d"
+    },
+    {
+      "path": "Zhengzhou_group/predictions/track2_augmented_ResidualMLP_fold1.csv.gz",
+      "sha256": "ca8355945972949c2fd40efda12b661b3f7b2b96eef99154b11ef79d88899b01"
+    },
+    {
+      "path": "Zhengzhou_group/predictions/track2_augmented_ResidualMLP_fold2.csv.gz",
+      "sha256": "4563822c34fc85c0ccfe6d38e845cb4a530450791f095f2e6e51f8a0cb5c7366"
+    },
+    {
+      "path": "Zhengzhou_group/predictions/track2_augmented_ResidualMLP_fold3.csv.gz",
+      "sha256": "e05bebd667f889e01a67331a360ae5477471e3d53f00a182939ecd65d84a73a9"
+    },
+    {
+      "path": "Zhengzhou_group/predictions/track2_augmented_ResidualMLP_fold4.csv.gz",
+      "sha256": "c4cffe3a569e07a99e5b1f3eed3eaf1685ac927b7d6d826e8c4f3d7fbea430b1"
+    },
+    {
+      "path": "Zhengzhou_group/predictions/track2_augmented_DepthPrior_fold0.csv.gz",
+      "sha256": "7305b924c8abbe2306a0966f6f5903ea7d815ce94e97a7001281241ccb61f417"
+    },
+    {
+      "path": "Zhengzhou_group/predictions/track2_augmented_DepthPrior_fold1.csv.gz",
+      "sha256": "9bfc672d2dfb8dbaab4c0f9411a75a70f2f6b3943793235c7f9400b969b26372"
+    },
+    {
+      "path": "Zhengzhou_group/predictions/track2_augmented_DepthPrior_fold2.csv.gz",
+      "sha256": "44df7683103ae7cd3b46b4162dbe183c8f3585678f7b2eaeeb51489aeb6c1003"
+    },
+    {
+      "path": "Zhengzhou_group/predictions/track2_augmented_DepthPrior_fold3.csv.gz",
+      "sha256": "de9184e95d300fdee71c14e7f8d6dd9bb87a4967e7655ef820bed41409fdeaae"
+    },
+    {
+      "path": "Zhengzhou_group/predictions/track2_augmented_DepthPrior_fold4.csv.gz",
+      "sha256": "f9855981859ffcd90fb7d0b6a4fec437d44e4a843ec0932f0d0066d286563d08"
+    },
+    {
+      "path": "Zhengzhou_group/predictions/track2_augmented_NearestObservedColumn_fold0.csv.gz",
+      "sha256": "760ae1845196b5170150676e545a8651142d441c4011fdf848bcb908c7eda227"
+    },
+    {
+      "path": "Zhengzhou_group/predictions/track2_augmented_NearestObservedColumn_fold1.csv.gz",
+      "sha256": "b67f101f4d3d18d1adca687f0f6d312ccef651e21961822d99f355e9af20acdf"
+    },
+    {
+      "path": "Zhengzhou_group/predictions/track2_augmented_NearestObservedColumn_fold2.csv.gz",
+      "sha256": "1c214d09f9dc1f832a2e9bd67c1ed0bb8b0acb2094e55c1370f9081c2ba01a2f"
+    },
+    {
+      "path": "Zhengzhou_group/predictions/track2_augmented_NearestObservedColumn_fold3.csv.gz",
+      "sha256": "adce87f9299ba1a303537f346508626b3d78615acf188af798286845b5944aa3"
+    },
+    {
+      "path": "Zhengzhou_group/predictions/track2_augmented_NearestObservedColumn_fold4.csv.gz",
+      "sha256": "cf3ed06b5e1189373eef7529a5565a9d409ca68587bfcaf477139e74fa19fce7"
+    },
+    {
+      "path": "Zhengzhou_spatial/predictions/track2_raw_RandomForest_fold0.csv.gz",
+      "sha256": "77fd15a0db7a87a9c26a0c80892806a28a5657ed73bdfcc167a61d8f2cb889aa"
+    },
+    {
+      "path": "Zhengzhou_spatial/predictions/track2_raw_RandomForest_fold1.csv.gz",
+      "sha256": "355843372d094212721ebd147e92442019e3474f419ab0d634a4d0033445492d"
+    },
+    {
+      "path": "Zhengzhou_spatial/predictions/track2_raw_RandomForest_fold2.csv.gz",
+      "sha256": "b6f3eea809a70b0c6fd3bee73246a8ba1e02df8526f6dcf0910da5041b038057"
+    },
+    {
+      "path": "Zhengzhou_spatial/predictions/track2_raw_RandomForest_fold3.csv.gz",
+      "sha256": "a87afb1a7e74354211e2ff488f6a279e5f6697f8e4d86189ce3862b3596c02a4"
+    },
+    {
+      "path": "Zhengzhou_spatial/predictions/track2_raw_RandomForest_fold4.csv.gz",
+      "sha256": "b3877167f33e250d80c1e93c2a3dff1b94d395c2581a3688d065abc7e5c49657"
+    },
+    {
+      "path": "Zhengzhou_spatial/predictions/track2_raw_XGBoost_fold0.csv.gz",
+      "sha256": "ff7a4d318cdcb9c7c21301d1556ab1dbc5d5796fa0399b45242f4735b41410cf"
+    },
+    {
+      "path": "Zhengzhou_spatial/predictions/track2_raw_XGBoost_fold1.csv.gz",
+      "sha256": "4dcc516172926f147568bb6ae54240a2c83d0f2f524b545619c3722b72219443"
+    },
+    {
+      "path": "Zhengzhou_spatial/predictions/track2_raw_XGBoost_fold2.csv.gz",
+      "sha256": "15a49da80b11281b086dce3ea60327f42680951db3e1f3d515c309801f3e0ae2"
+    },
+    {
+      "path": "Zhengzhou_spatial/predictions/track2_raw_XGBoost_fold3.csv.gz",
+      "sha256": "67b69b6d962e191ddc1d5c818d32171ba410923a43aaa2f59bf3355586d53ac7"
+    },
+    {
+      "path": "Zhengzhou_spatial/predictions/track2_raw_XGBoost_fold4.csv.gz",
+      "sha256": "682ea394b7fe3deae6219c2a55f8f6a687f10121092820bc74a9cd8946272523"
+    },
+    {
+      "path": "Zhengzhou_spatial/predictions/track2_raw_LightGBM_fold0.csv.gz",
+      "sha256": "d63c9e00348ed8f1fb278662558e9b3d7b41ba937fbfd5bdb91f78c49d5d87b9"
+    },
+    {
+      "path": "Zhengzhou_spatial/predictions/track2_raw_LightGBM_fold1.csv.gz",
+      "sha256": "1950cd2d9d25898feb32195571b31d0e9e25555b83d78ffdcf836be1d7c41273"
+    },
+    {
+      "path": "Zhengzhou_spatial/predictions/track2_raw_LightGBM_fold2.csv.gz",
+      "sha256": "0725c44b8abbaecfef0e69e01de97e0b13a84e9cedf8f943d2fe163746ac2259"
+    },
+    {
+      "path": "Zhengzhou_spatial/predictions/track2_raw_LightGBM_fold3.csv.gz",
+      "sha256": "af31a3f88e1c2fe306ca95ff6fda1d9d84162487048a088c9e7bf633f67d53f9"
+    },
+    {
+      "path": "Zhengzhou_spatial/predictions/track2_raw_LightGBM_fold4.csv.gz",
+      "sha256": "a62568e49c3a98bd8b60c796315d440daf1308386b33e16c208a26edef39807a"
+    },
+    {
+      "path": "Zhengzhou_spatial/predictions/track2_raw_ResidualMLP_fold0.csv.gz",
+      "sha256": "55448a989ee7c0a68185e02f7d7062d015f686781f94c2095bcb6be1efac9a30"
+    },
+    {
+      "path": "Zhengzhou_spatial/predictions/track2_raw_ResidualMLP_fold1.csv.gz",
+      "sha256": "c109d53afade573fbfdc2447e4c42941ce18da06a448b9d6cb0d4084dd48954e"
+    },
+    {
+      "path": "Zhengzhou_spatial/predictions/track2_raw_ResidualMLP_fold2.csv.gz",
+      "sha256": "2561912e0c7442cd73f5031e075c5c365287ca8b3a9471c5cea693b3f75a8495"
+    },
+    {
+      "path": "Zhengzhou_spatial/predictions/track2_raw_ResidualMLP_fold3.csv.gz",
+      "sha256": "fbd0a68ed63f2bac305b422fabb3ac0f9560e337f459c3b9afcd5f1dc672b31e"
+    },
+    {
+      "path": "Zhengzhou_spatial/predictions/track2_raw_ResidualMLP_fold4.csv.gz",
+      "sha256": "10d3e419c6833fa066524ac96eb39ff04acc51ffc3122c6190463909fc476325"
+    },
+    {
+      "path": "Zhengzhou_spatial/predictions/track2_raw_DepthPrior_fold0.csv.gz",
+      "sha256": "a39a0be4c418ff25f505d07b2428d47132659824d11d00ba761a2f22a50c2a0d"
+    },
+    {
+      "path": "Zhengzhou_spatial/predictions/track2_raw_DepthPrior_fold1.csv.gz",
+      "sha256": "b534e8f7fb46fc8f98afac94fd2192d968c82427f10c2090c2de14b4b14c3df1"
+    },
+    {
+      "path": "Zhengzhou_spatial/predictions/track2_raw_DepthPrior_fold2.csv.gz",
+      "sha256": "ce1d94e17cd0a30b0c98c6c7b87c82b62fc72fe3e93216671744671eb80b76ba"
+    },
+    {
+      "path": "Zhengzhou_spatial/predictions/track2_raw_DepthPrior_fold3.csv.gz",
+      "sha256": "3b50b72b9fd24f73a3535af3856cdc8274f03ab2f6aa7fe54380e813e57cddce"
+    },
+    {
+      "path": "Zhengzhou_spatial/predictions/track2_raw_DepthPrior_fold4.csv.gz",
+      "sha256": "92ec2a60e8d2304ddbe707dde0555314466628d08f4c7934f9ba7d84725ca335"
+    },
+    {
+      "path": "Zhengzhou_spatial/predictions/track2_raw_NearestObservedColumn_fold0.csv.gz",
+      "sha256": "56e7d9f89a31d7168496873146b7213c5fdb886d28c68e45afce3fee46b28b66"
+    },
+    {
+      "path": "Zhengzhou_spatial/predictions/track2_raw_NearestObservedColumn_fold1.csv.gz",
+      "sha256": "f32aa3ffd58709a2e0eac859c80c7b7924a97c3061315b2b2639461c1eebaefb"
+    },
+    {
+      "path": "Zhengzhou_spatial/predictions/track2_raw_NearestObservedColumn_fold2.csv.gz",
+      "sha256": "8d9a4b593b8308642969a82f4c15270e59483f984fdfb876e37eefe77cf7f582"
+    },
+    {
+      "path": "Zhengzhou_spatial/predictions/track2_raw_NearestObservedColumn_fold3.csv.gz",
+      "sha256": "b27fe576f940a51c4288461867613c1c12572183acef7196bf5c6a4dc594df72"
+    },
+    {
+      "path": "Zhengzhou_spatial/predictions/track2_raw_NearestObservedColumn_fold4.csv.gz",
+      "sha256": "50853139831a11bec8cb7159461061987783eea32af496102a9dd639a1236233"
+    },
+    {
+      "path": "Zhengzhou_spatial/predictions/track2_augmented_RandomForest_fold0.csv.gz",
+      "sha256": "efb0ee6ccafc2fd0314b538e9be59dfa95296f121cdadcf8f5deb6417afed569"
+    },
+    {
+      "path": "Zhengzhou_spatial/predictions/track2_augmented_RandomForest_fold1.csv.gz",
+      "sha256": "b93fa9e72a698e959576c1f9c2a9afbaa6bad64053faf34d7e7e05f4f857b25e"
+    },
+    {
+      "path": "Zhengzhou_spatial/predictions/track2_augmented_RandomForest_fold2.csv.gz",
+      "sha256": "954f7641669640802a1e206cdb7662cdbc844d45fef88e860c24750198044997"
+    },
+    {
+      "path": "Zhengzhou_spatial/predictions/track2_augmented_RandomForest_fold3.csv.gz",
+      "sha256": "99071128f570b8cd6d3a313fc8806d0f7eb7311d55b8740e8db21c33a84989c0"
+    },
+    {
+      "path": "Zhengzhou_spatial/predictions/track2_augmented_RandomForest_fold4.csv.gz",
+      "sha256": "b1194c33605aa90b4a55a6bf11d0c3aa449a1df37fd22b71cfa0bd0dbbc8474a"
+    },
+    {
+      "path": "Zhengzhou_spatial/predictions/track2_augmented_XGBoost_fold0.csv.gz",
+      "sha256": "f8771ba06a2295f2acdd9df7bbf2c188eea88284be77f5b5e064a52d44f27047"
+    },
+    {
+      "path": "Zhengzhou_spatial/predictions/track2_augmented_XGBoost_fold1.csv.gz",
+      "sha256": "37380ed71648eb31aae5412f90d0b400abf690c6235e5a3df75cef23ddd341b5"
+    },
+    {
+      "path": "Zhengzhou_spatial/predictions/track2_augmented_XGBoost_fold2.csv.gz",
+      "sha256": "a0e5c182769701108a2c7238af2d84b3c667063b27d629fd7cbabce0473fac6f"
+    },
+    {
+      "path": "Zhengzhou_spatial/predictions/track2_augmented_XGBoost_fold3.csv.gz",
+      "sha256": "c01c2c5a62492ea1a038e095e3b3725244183a3dc0527feccdbb0254b75f9b1b"
+    },
+    {
+      "path": "Zhengzhou_spatial/predictions/track2_augmented_XGBoost_fold4.csv.gz",
+      "sha256": "d6403bc0cd9e1ef6ee8c88b31a76056a1f886ca33755585f8e6d347678e041c7"
+    },
+    {
+      "path": "Zhengzhou_spatial/predictions/track2_augmented_LightGBM_fold0.csv.gz",
+      "sha256": "c1dc4e9b0cfe06fa3db4a76c87312c8d5f16f5036fefaebb06df0f17666b14a1"
+    },
+    {
+      "path": "Zhengzhou_spatial/predictions/track2_augmented_LightGBM_fold1.csv.gz",
+      "sha256": "29f2d30fbaedecfb7d86e50a09ef63fe8711cab6b1c8f7f5d246896d4ef72749"
+    },
+    {
+      "path": "Zhengzhou_spatial/predictions/track2_augmented_LightGBM_fold2.csv.gz",
+      "sha256": "cc6aed6438555658b48ea344337e12985f05681e1102b87164e43532c8e33d54"
+    },
+    {
+      "path": "Zhengzhou_spatial/predictions/track2_augmented_LightGBM_fold3.csv.gz",
+      "sha256": "bb4d993efadaf9ee1ea32e606fa7f247c87f081247dde513d97b65a16248a193"
+    },
+    {
+      "path": "Zhengzhou_spatial/predictions/track2_augmented_LightGBM_fold4.csv.gz",
+      "sha256": "3979f1e9e91da88a92cbecb018115666d380590d13b16234d8bc63134a557008"
+    },
+    {
+      "path": "Zhengzhou_spatial/predictions/track2_augmented_ResidualMLP_fold0.csv.gz",
+      "sha256": "4a9e213b46e8a63a7879683bc81f8c35a3e04bf9511b5051de6b74d6d15c3803"
+    },
+    {
+      "path": "Zhengzhou_spatial/predictions/track2_augmented_ResidualMLP_fold1.csv.gz",
+      "sha256": "b1bc559a8f3f6cf3b53798a678eaa06efc7c2734def8508dfcea3b5d4817ad43"
+    },
+    {
+      "path": "Zhengzhou_spatial/predictions/track2_augmented_ResidualMLP_fold2.csv.gz",
+      "sha256": "f295b3116b5d3bc55d311ced5465531496b0d822bd1bb24176a03005785fba4f"
+    },
+    {
+      "path": "Zhengzhou_spatial/predictions/track2_augmented_ResidualMLP_fold3.csv.gz",
+      "sha256": "3562956c9f15fbc54a2d05f554037651ad6247db72845c936e99a6ae8ba92973"
+    },
+    {
+      "path": "Zhengzhou_spatial/predictions/track2_augmented_ResidualMLP_fold4.csv.gz",
+      "sha256": "c765d590a28df7b57e3f67fa6e7d5a9b61eef89e343ab008321e5fcc617ff924"
+    },
+    {
+      "path": "Zhengzhou_spatial/predictions/track2_augmented_DepthPrior_fold0.csv.gz",
+      "sha256": "b86b63f4b36cd4d5d5fa8de8835521a72edcf26743e9af419e2ae2ee7170fba8"
+    },
+    {
+      "path": "Zhengzhou_spatial/predictions/track2_augmented_DepthPrior_fold1.csv.gz",
+      "sha256": "d171f6d6b6d0888e3e33e05d546c9988d40eac012ae677609ab1b6929889adc7"
+    },
+    {
+      "path": "Zhengzhou_spatial/predictions/track2_augmented_DepthPrior_fold2.csv.gz",
+      "sha256": "3e208b2f1008868e801e165e24fa2d089f11e7d52e3ad239090a1f08e8cad384"
+    },
+    {
+      "path": "Zhengzhou_spatial/predictions/track2_augmented_DepthPrior_fold3.csv.gz",
+      "sha256": "43ccadfa6de56f8df4438975b3c719b646e7c3231a5f0aab610b64688e6a0f08"
+    },
+    {
+      "path": "Zhengzhou_spatial/predictions/track2_augmented_DepthPrior_fold4.csv.gz",
+      "sha256": "54da71faaed5f8b096f8b6b8e2da5d98a69c9a4b0ed32b5bf0d4514e6be0a1eb"
+    },
+    {
+      "path": "Zhengzhou_spatial/predictions/track2_augmented_NearestObservedColumn_fold0.csv.gz",
+      "sha256": "c82496892610c40126a8cc01dc0e2ff0c01250701e20720d60d1ef720fb398b1"
+    },
+    {
+      "path": "Zhengzhou_spatial/predictions/track2_augmented_NearestObservedColumn_fold1.csv.gz",
+      "sha256": "2be6e71c29a2a8818ba042d61d186e23daf3132f8b99ff72c9fd1cb1227a9b14"
+    },
+    {
+      "path": "Zhengzhou_spatial/predictions/track2_augmented_NearestObservedColumn_fold2.csv.gz",
+      "sha256": "df0d1a5c93fae08cdfae2958a84b20d96cf05bbd540bd8ad8656edd97638ce47"
+    },
+    {
+      "path": "Zhengzhou_spatial/predictions/track2_augmented_NearestObservedColumn_fold3.csv.gz",
+      "sha256": "080937ab5c50f43ab06912d92b03bb75714f4c02c336eb667a9cd930306d19fd"
+    },
+    {
+      "path": "Zhengzhou_spatial/predictions/track2_augmented_NearestObservedColumn_fold4.csv.gz",
+      "sha256": "f7a8cc46ffb33da26e619704567c41f983e39642509c063ce48fcec80723f91e"
+    },
+    {
+      "path": "Kimberlina_group/predictions/track2_raw_RandomForest_fold0.csv.gz",
+      "sha256": "a52c7ae6fc4bb22f134132c84afa81c1b7f138942249b2753204bf9fa5e963c9"
+    },
+    {
+      "path": "Kimberlina_group/predictions/track2_raw_RandomForest_fold1.csv.gz",
+      "sha256": "986f7d04e169a829ae7f979d74ec35a4c0d0882b953c0cc9542ff439b6b2be79"
+    },
+    {
+      "path": "Kimberlina_group/predictions/track2_raw_RandomForest_fold2.csv.gz",
+      "sha256": "7ca99441cacf78d3cedf24c7f5b4a00f2c846435ee647c5902913dae1a610e37"
+    },
+    {
+      "path": "Kimberlina_group/predictions/track2_raw_RandomForest_fold3.csv.gz",
+      "sha256": "897eed65371a10513489b1693542ea90aa10a38dd19b54b22933e38ab3c9c8a1"
+    },
+    {
+      "path": "Kimberlina_group/predictions/track2_raw_RandomForest_fold4.csv.gz",
+      "sha256": "7866ccddda64dddfe1a8058f91d5a7e79d2463218a47ad53f0c08e23fdf512b7"
+    },
+    {
+      "path": "Kimberlina_group/predictions/track2_raw_XGBoost_fold0.csv.gz",
+      "sha256": "7bda7b1e31fc534e41171ff0b933264649d168d38fcd51edc46a3e20ff9f7315"
+    },
+    {
+      "path": "Kimberlina_group/predictions/track2_raw_XGBoost_fold1.csv.gz",
+      "sha256": "d7b6253dcff4f75eaab1292078afacc960fe36b4be163987e1f0fac205b9723b"
+    },
+    {
+      "path": "Kimberlina_group/predictions/track2_raw_XGBoost_fold2.csv.gz",
+      "sha256": "05e21978af39a7326d8de9a08d4cfba0a65f3bfd0d652218c36a39cbf50f0b82"
+    },
+    {
+      "path": "Kimberlina_group/predictions/track2_raw_XGBoost_fold3.csv.gz",
+      "sha256": "4c28d44b222fc3f910e2e5cb462be7891b9d5e572585dee2e977c55df0faa731"
+    },
+    {
+      "path": "Kimberlina_group/predictions/track2_raw_XGBoost_fold4.csv.gz",
+      "sha256": "2fa1044e72ca624cd54f6c50c588c68ce7515c8510c0f3ff2dbbc039d0445090"
+    },
+    {
+      "path": "Kimberlina_group/predictions/track2_raw_LightGBM_fold0.csv.gz",
+      "sha256": "207588f3125f47e5cee6a0261ca422da8ae5fa0c76e4892440043a5da582c631"
+    },
+    {
+      "path": "Kimberlina_group/predictions/track2_raw_LightGBM_fold1.csv.gz",
+      "sha256": "7836f49be82526a01fbbb834b681c509814e2a23af7e907d0a6f634e77ae1593"
+    },
+    {
+      "path": "Kimberlina_group/predictions/track2_raw_LightGBM_fold2.csv.gz",
+      "sha256": "d586203cf023b14250c8f0f6337be688a32d96307c363eb8940aa47a2f08a75b"
+    },
+    {
+      "path": "Kimberlina_group/predictions/track2_raw_LightGBM_fold3.csv.gz",
+      "sha256": "b37c86b1b51629215c66c96e4ff747be2fd0cb466b23dc99cb25b7b3f61c2fd3"
+    },
+    {
+      "path": "Kimberlina_group/predictions/track2_raw_LightGBM_fold4.csv.gz",
+      "sha256": "34ef7a4b4e4d37790c53fe48a529e72896882f052cd18af079b82fadddf0e63d"
+    },
+    {
+      "path": "Kimberlina_group/predictions/track2_raw_ResidualMLP_fold0.csv.gz",
+      "sha256": "89be4616a37f4ad8362ab8a5ba53ca9a0726c22612fdf43d68dbffe078d51f72"
+    },
+    {
+      "path": "Kimberlina_group/predictions/track2_raw_ResidualMLP_fold1.csv.gz",
+      "sha256": "fccf2dd4926e87e898f214ac8cb67b053dd472d19c0e0475546ffb87606e98b4"
+    },
+    {
+      "path": "Kimberlina_group/predictions/track2_raw_ResidualMLP_fold2.csv.gz",
+      "sha256": "162c9aa265342d9289fc0b03f4c57ae52ac62f6f75252c07b4d7faf9e070f9a1"
+    },
+    {
+      "path": "Kimberlina_group/predictions/track2_raw_ResidualMLP_fold3.csv.gz",
+      "sha256": "b4c0e15e92b223398ebe82b6bb3f072e5fa4a9488f8d9b12f46c151b73e7921e"
+    },
+    {
+      "path": "Kimberlina_group/predictions/track2_raw_ResidualMLP_fold4.csv.gz",
+      "sha256": "b0666f8bd01b9278b634381a2b103a843c4793b855274b930cc106f46a12ab87"
+    },
+    {
+      "path": "Kimberlina_group/predictions/track2_raw_DepthPrior_fold0.csv.gz",
+      "sha256": "731e54cc559f16bb2fc5c85949c811de46fb3d01bc8587ff5fbbfaf431c309d1"
+    },
+    {
+      "path": "Kimberlina_group/predictions/track2_raw_DepthPrior_fold1.csv.gz",
+      "sha256": "5bf731735e52836e73672ce9f8148edf98bc7898664951d73ecdee4db47d7c90"
+    },
+    {
+      "path": "Kimberlina_group/predictions/track2_raw_DepthPrior_fold2.csv.gz",
+      "sha256": "5f859f4ea619acfb19b0d12655b80eded48c297e52adce510f31036fea25ae39"
+    },
+    {
+      "path": "Kimberlina_group/predictions/track2_raw_DepthPrior_fold3.csv.gz",
+      "sha256": "2396869c60e1d2000e79fb503226756dc62255d0a8d16fec8364c47e27a08b3c"
+    },
+    {
+      "path": "Kimberlina_group/predictions/track2_raw_DepthPrior_fold4.csv.gz",
+      "sha256": "45d0324542d0434c2d3932764b843f105ba8c1685a072006d18f01c088fbf856"
+    },
+    {
+      "path": "Kimberlina_group/predictions/track2_raw_NearestObservedColumn_fold0.csv.gz",
+      "sha256": "6daaf1eaf5ed981bf3a24eaa74927f595db5e81dc259cad87dc4bdf9c6f7623c"
+    },
+    {
+      "path": "Kimberlina_group/predictions/track2_raw_NearestObservedColumn_fold1.csv.gz",
+      "sha256": "6f2108a33b41925ab2167c4a8bfe002e7392d307279f603040501f28f18d3c02"
+    },
+    {
+      "path": "Kimberlina_group/predictions/track2_raw_NearestObservedColumn_fold2.csv.gz",
+      "sha256": "0d3603af013b04fe4111f9c7fcb9f7dcc90fd1a9ef08621a2751dad17c57b7a0"
+    },
+    {
+      "path": "Kimberlina_group/predictions/track2_raw_NearestObservedColumn_fold3.csv.gz",
+      "sha256": "b13ce7a122bf9e098eebaf1c70ebc6699974f07cc1bc859f08d1e4b6c8463288"
+    },
+    {
+      "path": "Kimberlina_group/predictions/track2_raw_NearestObservedColumn_fold4.csv.gz",
+      "sha256": "e5bcaa22f2f107ccaa3eaab57762e7199b64e890efdf7991887ae88ed3e37fe5"
+    },
+    {
+      "path": "Kimberlina_group/predictions/track2_augmented_RandomForest_fold0.csv.gz",
+      "sha256": "f2c5118ed5502d885acba76a3dc1e2450ef0c7e0cee55d07c224e1460ff78226"
+    },
+    {
+      "path": "Kimberlina_group/predictions/track2_augmented_RandomForest_fold1.csv.gz",
+      "sha256": "6902d37feb64754eceb1250c362d68077acab80000d0dcc84ed2a34750552778"
+    },
+    {
+      "path": "Kimberlina_group/predictions/track2_augmented_RandomForest_fold2.csv.gz",
+      "sha256": "df35520127617d11d6f2e1367e78445203ca4a744ba4af5aad49ed8ba174437a"
+    },
+    {
+      "path": "Kimberlina_group/predictions/track2_augmented_RandomForest_fold3.csv.gz",
+      "sha256": "196e7a11d1ee4fe346b6c941ade48832e1e748fc1545cf887dbb8288037cb688"
+    },
+    {
+      "path": "Kimberlina_group/predictions/track2_augmented_RandomForest_fold4.csv.gz",
+      "sha256": "79548b7a983054bdb8fc7b825fd5a8590afdfa4116e336727a4ef7d8438db2b5"
+    },
+    {
+      "path": "Kimberlina_group/predictions/track2_augmented_XGBoost_fold0.csv.gz",
+      "sha256": "5e04953aea49dce6c7c1ec0787b2fec3ecc3927c156f4b37c0222cb98d8dc5f1"
+    },
+    {
+      "path": "Kimberlina_group/predictions/track2_augmented_XGBoost_fold1.csv.gz",
+      "sha256": "46ef38f90634c4e4dcbaab298cdc758147130d891f5f7a20f57e1fcdf03f1992"
+    },
+    {
+      "path": "Kimberlina_group/predictions/track2_augmented_XGBoost_fold2.csv.gz",
+      "sha256": "bce0411a8f50982d71e16cedabe5f6d407564dcdf83eb38392814d72d557c533"
+    },
+    {
+      "path": "Kimberlina_group/predictions/track2_augmented_XGBoost_fold3.csv.gz",
+      "sha256": "3e5a0d0d8c831ada51b54285d184e5aaa684082c91333634fd3518f3c2113b81"
+    },
+    {
+      "path": "Kimberlina_group/predictions/track2_augmented_XGBoost_fold4.csv.gz",
+      "sha256": "3a1b7fc48d8c55859c7bd64f89a95cc797b9c85817e1916ebd009cd9f6a7b0a0"
+    },
+    {
+      "path": "Kimberlina_group/predictions/track2_augmented_LightGBM_fold0.csv.gz",
+      "sha256": "7b1bc2312a2c1820b0e5c3ea73786f5fd8c3090217fd6ea7ca3ba50e00468a97"
+    },
+    {
+      "path": "Kimberlina_group/predictions/track2_augmented_LightGBM_fold1.csv.gz",
+      "sha256": "e5617d5808a4a34e55ee7a7e9d1fac4dc6db42dce4abb627e0f79b9005e6b6af"
+    },
+    {
+      "path": "Kimberlina_group/predictions/track2_augmented_LightGBM_fold2.csv.gz",
+      "sha256": "f9e6807d47a61686a162cfbf748efb31588c4eb8f60b20accc33f3bf09cdcb4e"
+    },
+    {
+      "path": "Kimberlina_group/predictions/track2_augmented_LightGBM_fold3.csv.gz",
+      "sha256": "0bfd4cecd2d13e4686cb5e77a0f0da3887be49e5817d5d06fce7630baa2ba4de"
+    },
+    {
+      "path": "Kimberlina_group/predictions/track2_augmented_LightGBM_fold4.csv.gz",
+      "sha256": "1761e4d30804dab1645fd9576074bc65edc79ff520cf147760e7ab4a445e7d52"
+    },
+    {
+      "path": "Kimberlina_group/predictions/track2_augmented_ResidualMLP_fold0.csv.gz",
+      "sha256": "c786a2a3046f0205ff214620ba255825eff97ce5519cf01e4c8a2aee71d4c11a"
+    },
+    {
+      "path": "Kimberlina_group/predictions/track2_augmented_ResidualMLP_fold1.csv.gz",
+      "sha256": "1addd646fed69743b94822aef3db7ac2ce5874676cf59edc9fc4e9c0aa5d2c18"
+    },
+    {
+      "path": "Kimberlina_group/predictions/track2_augmented_ResidualMLP_fold2.csv.gz",
+      "sha256": "4c7034f080691cf774740b2893d0781119012f6baee73e01a322988fe9c08462"
+    },
+    {
+      "path": "Kimberlina_group/predictions/track2_augmented_ResidualMLP_fold3.csv.gz",
+      "sha256": "e404a2a00f66cc940330e5f94bc1a6eb85f66de4d20fe8a1053349312e5ed1bf"
+    },
+    {
+      "path": "Kimberlina_group/predictions/track2_augmented_ResidualMLP_fold4.csv.gz",
+      "sha256": "098dff1fe4ed6e5f3e455c1fe3da4dfe67df0e4fd5abe3593ae076da07ce816c"
+    },
+    {
+      "path": "Kimberlina_group/predictions/track2_augmented_DepthPrior_fold0.csv.gz",
+      "sha256": "7e74a26d21966c5a0a04e17eea98eb4e4241fd6492ab3a480bda36e15525f09f"
+    },
+    {
+      "path": "Kimberlina_group/predictions/track2_augmented_DepthPrior_fold1.csv.gz",
+      "sha256": "1b44520a0dd335161672fb8828291be1c6269771e3cd61b2040bf37905ca3d3e"
+    },
+    {
+      "path": "Kimberlina_group/predictions/track2_augmented_DepthPrior_fold2.csv.gz",
+      "sha256": "8da599960d117d8827ceaed16265a3c2eab66912fc6c6503098b9f52f16b6658"
+    },
+    {
+      "path": "Kimberlina_group/predictions/track2_augmented_DepthPrior_fold3.csv.gz",
+      "sha256": "fee6be7227959e156412e849d9b5979fc4b857d74ea67418035dcb43e0eb69f7"
+    },
+    {
+      "path": "Kimberlina_group/predictions/track2_augmented_DepthPrior_fold4.csv.gz",
+      "sha256": "5d083afc36030898ace9f61fc6be9ae21f0688f90dfc0b56fdb0909213d964cd"
+    },
+    {
+      "path": "Kimberlina_group/predictions/track2_augmented_NearestObservedColumn_fold0.csv.gz",
+      "sha256": "6854ed816897a4126f19ffdee352f710036424c3941ed28826e888c3305f1885"
+    },
+    {
+      "path": "Kimberlina_group/predictions/track2_augmented_NearestObservedColumn_fold1.csv.gz",
+      "sha256": "db844ffe4cb193d0dac38ab708ce6dc51dd33418fda1eb24285f480b6e17f6bc"
+    },
+    {
+      "path": "Kimberlina_group/predictions/track2_augmented_NearestObservedColumn_fold2.csv.gz",
+      "sha256": "aa4866ec9868c140310a0bedc43da8ecb7339dd5aff59573b6c12693ea4d91d6"
+    },
+    {
+      "path": "Kimberlina_group/predictions/track2_augmented_NearestObservedColumn_fold3.csv.gz",
+      "sha256": "308569a3aa72eb5a5873c1282e4210080eed2e5e05d83c116a32c0e359c7cc9b"
+    },
+    {
+      "path": "Kimberlina_group/predictions/track2_augmented_NearestObservedColumn_fold4.csv.gz",
+      "sha256": "1d8c4ff7f516cdc3fcf88f997bbeeb7177f586bbb6cebd43fe2e455ad37d9707"
+    },
+    {
+      "path": "Kimberlina_spatial/predictions/track2_raw_RandomForest_fold0.csv.gz",
+      "sha256": "47d0a831db3c5c426514d530b439303d0b59e65f0473ac35240ba3cdf373e4d9"
+    },
+    {
+      "path": "Kimberlina_spatial/predictions/track2_raw_RandomForest_fold1.csv.gz",
+      "sha256": "9cea888fad3368f7cdbb30bca920040d61e4e6be0dc8e2fb66ab330d9f15b9dd"
+    },
+    {
+      "path": "Kimberlina_spatial/predictions/track2_raw_RandomForest_fold2.csv.gz",
+      "sha256": "5a3268033d509adbb0f6d41b9b360519f04318d379135247aba9679861b9686b"
+    },
+    {
+      "path": "Kimberlina_spatial/predictions/track2_raw_RandomForest_fold3.csv.gz",
+      "sha256": "96ed03732d8b749d21f015a39f5efb2198b70b2d678b453fe1675618db6cf9cb"
+    },
+    {
+      "path": "Kimberlina_spatial/predictions/track2_raw_RandomForest_fold4.csv.gz",
+      "sha256": "aad0d841ccc90e5506e53dc7bb73d2cd167f683c88a4854607f7bcbbae205f55"
+    },
+    {
+      "path": "Kimberlina_spatial/predictions/track2_raw_XGBoost_fold0.csv.gz",
+      "sha256": "064b18f81b5db04c531fb13ac3b1b57e68834f1748d9ea0f531c0af159af71e2"
+    },
+    {
+      "path": "Kimberlina_spatial/predictions/track2_raw_XGBoost_fold1.csv.gz",
+      "sha256": "9c69ccdd29a54aada71bcc03ec788cc33d197ca77649f29790dfec201cf78f1e"
+    },
+    {
+      "path": "Kimberlina_spatial/predictions/track2_raw_XGBoost_fold2.csv.gz",
+      "sha256": "522b3e670d4498b6da27cd9f387e02e325fec98116cbdfeac867b37a153cf56c"
+    },
+    {
+      "path": "Kimberlina_spatial/predictions/track2_raw_XGBoost_fold3.csv.gz",
+      "sha256": "152dc453aadbe243b647451b1fcfda12f5858b695caa4aaa37543d87baf7bbdb"
+    },
+    {
+      "path": "Kimberlina_spatial/predictions/track2_raw_XGBoost_fold4.csv.gz",
+      "sha256": "97a936cafef5592241772055197fb8c9e99abb524b3b4ab6392224ffea3d1a5f"
+    },
+    {
+      "path": "Kimberlina_spatial/predictions/track2_raw_LightGBM_fold0.csv.gz",
+      "sha256": "19461aad6b0adc419248bd099f1f186e53ae32c34546c37e0056d3666172f758"
+    },
+    {
+      "path": "Kimberlina_spatial/predictions/track2_raw_LightGBM_fold1.csv.gz",
+      "sha256": "7cedb09f93878621abdfadd0113ff90c4a1c7ae36d03a37f38f3a35f02a053f8"
+    },
+    {
+      "path": "Kimberlina_spatial/predictions/track2_raw_LightGBM_fold2.csv.gz",
+      "sha256": "dab9caa4af59e50be7c831d9ae8461ac42cd8a101b1a237743373861ce2a261c"
+    },
+    {
+      "path": "Kimberlina_spatial/predictions/track2_raw_LightGBM_fold3.csv.gz",
+      "sha256": "13f573dd5d6d9828540b45949b3ed92cbca3177b772bf9cc6914d188898c5ce2"
+    },
+    {
+      "path": "Kimberlina_spatial/predictions/track2_raw_LightGBM_fold4.csv.gz",
+      "sha256": "6eaab6356a2e647ce02e14599e2fdd925fa8bd70e7f3924ad5b6227e11d9955b"
+    },
+    {
+      "path": "Kimberlina_spatial/predictions/track2_raw_ResidualMLP_fold0.csv.gz",
+      "sha256": "99985e94e84228992fab3de27c231b011f9f0feeaa38edde06f80b12c8804e0f"
+    },
+    {
+      "path": "Kimberlina_spatial/predictions/track2_raw_ResidualMLP_fold1.csv.gz",
+      "sha256": "32281b9414a55a92a830f025683e212d75c8e6207c049a9c5afc3752fd07b04d"
+    },
+    {
+      "path": "Kimberlina_spatial/predictions/track2_raw_ResidualMLP_fold2.csv.gz",
+      "sha256": "aafcedd37f92e8057fd0c56d0a800eb74d9e76fc6e162a799c702ea55d8c54c3"
+    },
+    {
+      "path": "Kimberlina_spatial/predictions/track2_raw_ResidualMLP_fold3.csv.gz",
+      "sha256": "44df54542822b295da8a1dbb0d56ca728b1a5a3b4025a8c7e15cbee49e39dc50"
+    },
+    {
+      "path": "Kimberlina_spatial/predictions/track2_raw_ResidualMLP_fold4.csv.gz",
+      "sha256": "909dcb023f105adc841d68bc0be50230220e7e1344792ac743cbf8a9ae6e8945"
+    },
+    {
+      "path": "Kimberlina_spatial/predictions/track2_raw_DepthPrior_fold0.csv.gz",
+      "sha256": "936a84d4ac4846ab4b02becca83dd6cbd730864150076eb658d38614c72b1bae"
+    },
+    {
+      "path": "Kimberlina_spatial/predictions/track2_raw_DepthPrior_fold1.csv.gz",
+      "sha256": "90f74a19c9d36a5f05bce3db20a05ce24605487554219b6eb09c188a77f5ba82"
+    },
+    {
+      "path": "Kimberlina_spatial/predictions/track2_raw_DepthPrior_fold2.csv.gz",
+      "sha256": "8eb7b08304ecbd99c52f9b6d61608e32a7bab0e526ee9bc70cbf928fe24449ea"
+    },
+    {
+      "path": "Kimberlina_spatial/predictions/track2_raw_DepthPrior_fold3.csv.gz",
+      "sha256": "b130afe9613afd16698cfe48849c1266677bde297d342807e6b975f66a3d1165"
+    },
+    {
+      "path": "Kimberlina_spatial/predictions/track2_raw_DepthPrior_fold4.csv.gz",
+      "sha256": "dc1c0096c75d731cf4df0da8a71d63817f9c63365f2889513f5c5e30a1bd5687"
+    },
+    {
+      "path": "Kimberlina_spatial/predictions/track2_raw_NearestObservedColumn_fold0.csv.gz",
+      "sha256": "3d6ceeb0f7fdcdfccdfb5681e547c0c81ccbab3fd91502dd9baa9c47895f27d0"
+    },
+    {
+      "path": "Kimberlina_spatial/predictions/track2_raw_NearestObservedColumn_fold1.csv.gz",
+      "sha256": "8cf81d0edbc9ce6082aad0b782e2cd3e418755a3304fcce3e45e6176f77e4671"
+    },
+    {
+      "path": "Kimberlina_spatial/predictions/track2_raw_NearestObservedColumn_fold2.csv.gz",
+      "sha256": "b3d294696279fd0a0cf919d54f083e93281c5538212ade8ded0ead9b1642be1b"
+    },
+    {
+      "path": "Kimberlina_spatial/predictions/track2_raw_NearestObservedColumn_fold3.csv.gz",
+      "sha256": "40c3ece2d2e05fe2c17e022cd7c31d126a815de92ac0c89e8bb8b2444a535cae"
+    },
+    {
+      "path": "Kimberlina_spatial/predictions/track2_raw_NearestObservedColumn_fold4.csv.gz",
+      "sha256": "c15e53e7477f10eb6142b69d8cf29a7a477dbf18279cf1bc9aa885fd24049278"
+    },
+    {
+      "path": "Kimberlina_spatial/predictions/track2_augmented_RandomForest_fold0.csv.gz",
+      "sha256": "d0955e4d40f6e306273563a4053f2651e65f9c6ee6ef8aae2cc89ca24e84f9cf"
+    },
+    {
+      "path": "Kimberlina_spatial/predictions/track2_augmented_RandomForest_fold1.csv.gz",
+      "sha256": "d10f1fa09dee647c5947bd2b915199b24ae7b8bfe1582328ade990c4ff750c98"
+    },
+    {
+      "path": "Kimberlina_spatial/predictions/track2_augmented_RandomForest_fold2.csv.gz",
+      "sha256": "d2dcc7b1681c1853d4dc68d7309c9bba4b9c6b7edb9fc3e32e60da4c276cbfd3"
+    },
+    {
+      "path": "Kimberlina_spatial/predictions/track2_augmented_RandomForest_fold3.csv.gz",
+      "sha256": "2310d074853d1e828b561187755e66663442f09a82e0c4539ed692e6c69de8e4"
+    },
+    {
+      "path": "Kimberlina_spatial/predictions/track2_augmented_RandomForest_fold4.csv.gz",
+      "sha256": "651a372a0562f68305587b954986be8d2abac0cbceef7e89bf995284daa9916c"
+    },
+    {
+      "path": "Kimberlina_spatial/predictions/track2_augmented_XGBoost_fold0.csv.gz",
+      "sha256": "25b89939e14e3784d710ea6d5c8ba039d6045e9c63bf866d3e3cb3dbefb02432"
+    },
+    {
+      "path": "Kimberlina_spatial/predictions/track2_augmented_XGBoost_fold1.csv.gz",
+      "sha256": "6c6b0a8d388be21608a567dae5d8a5c788d9ca7302dd56bea79d2ea9c81a9b96"
+    },
+    {
+      "path": "Kimberlina_spatial/predictions/track2_augmented_XGBoost_fold2.csv.gz",
+      "sha256": "557a7f5a8922e8d10c0521c05e0ef6afa8f3e821af98ad7018fa02b74f0211e9"
+    },
+    {
+      "path": "Kimberlina_spatial/predictions/track2_augmented_XGBoost_fold3.csv.gz",
+      "sha256": "50e8ca7558121285e5bf2ab79e65df1ebf024588ff80ee1d43d12cd2491b4df9"
+    },
+    {
+      "path": "Kimberlina_spatial/predictions/track2_augmented_XGBoost_fold4.csv.gz",
+      "sha256": "6fe5f087cc99df028dcda107c89627ffd3f01fbaee1078288d2e39e425b7d2a0"
+    },
+    {
+      "path": "Kimberlina_spatial/predictions/track2_augmented_LightGBM_fold0.csv.gz",
+      "sha256": "7d3b0e9527699a8c84062fd2bba9025d21c2b3d0c7dde190a9e86dd6be31f0cd"
+    },
+    {
+      "path": "Kimberlina_spatial/predictions/track2_augmented_LightGBM_fold1.csv.gz",
+      "sha256": "2f0bba35af7afdd06b146c1f74c945e3f29c1348ed00a07864cdcf7c496c4620"
+    },
+    {
+      "path": "Kimberlina_spatial/predictions/track2_augmented_LightGBM_fold2.csv.gz",
+      "sha256": "95934b6cc7006f6bbbd92626b5c55438f1132b067d2a5eda93170679f4561bd1"
+    },
+    {
+      "path": "Kimberlina_spatial/predictions/track2_augmented_LightGBM_fold3.csv.gz",
+      "sha256": "28ce0ff2f69233453b0b9709799976a64209acc24aebba755a7805612c392eec"
+    },
+    {
+      "path": "Kimberlina_spatial/predictions/track2_augmented_LightGBM_fold4.csv.gz",
+      "sha256": "426e2663cbe2f1253c196a4929df149cce2fd0a4e26d0dc9d22d47f114a2c07b"
+    },
+    {
+      "path": "Kimberlina_spatial/predictions/track2_augmented_ResidualMLP_fold0.csv.gz",
+      "sha256": "339de333a20997abf12bae58fba04039d0f3f0e6a6516dee35d10c48050ddf87"
+    },
+    {
+      "path": "Kimberlina_spatial/predictions/track2_augmented_ResidualMLP_fold1.csv.gz",
+      "sha256": "1ff541708fd679074ff31e3f38fe4085568f6a3db4f968b9e75a0e1609abaa19"
+    },
+    {
+      "path": "Kimberlina_spatial/predictions/track2_augmented_ResidualMLP_fold2.csv.gz",
+      "sha256": "c3b38eae9485799d870c21daa05aa135e6e56a45a9d2727e83324575ba8be355"
+    },
+    {
+      "path": "Kimberlina_spatial/predictions/track2_augmented_ResidualMLP_fold3.csv.gz",
+      "sha256": "b92a8364912ffefd343e402b9a6b3cc123f90e7a9b70dc3826d92d725098a2d6"
+    },
+    {
+      "path": "Kimberlina_spatial/predictions/track2_augmented_ResidualMLP_fold4.csv.gz",
+      "sha256": "270b381c9b1dac6326e9f212c4776edb4f8cebdc590e3e2889c96319967f20a0"
+    },
+    {
+      "path": "Kimberlina_spatial/predictions/track2_augmented_DepthPrior_fold0.csv.gz",
+      "sha256": "a999869794b1f36a442d90da4c03f2a61b6e46317a2c300d7a36cd1fdf328fea"
+    },
+    {
+      "path": "Kimberlina_spatial/predictions/track2_augmented_DepthPrior_fold1.csv.gz",
+      "sha256": "2c38dca759a85b92cde7a72df6feed8d1aaa36bcb320672d214380062b279936"
+    },
+    {
+      "path": "Kimberlina_spatial/predictions/track2_augmented_DepthPrior_fold2.csv.gz",
+      "sha256": "69b984f761189459eb36f963eb1661b6e46e88f21b573feae71abbfe07b7b923"
+    },
+    {
+      "path": "Kimberlina_spatial/predictions/track2_augmented_DepthPrior_fold3.csv.gz",
+      "sha256": "e745c996dbc7385a88b0a48bb5b8d8ed8734da16805a6742a8496e6cd587a600"
+    },
+    {
+      "path": "Kimberlina_spatial/predictions/track2_augmented_DepthPrior_fold4.csv.gz",
+      "sha256": "291e67a9c3e5ffa32837166a5705e5e326b065b69bdf785f49c246f0e353fb5e"
+    },
+    {
+      "path": "Kimberlina_spatial/predictions/track2_augmented_NearestObservedColumn_fold0.csv.gz",
+      "sha256": "64d8e2020f2270358ee99c4ba4b43ce1de0a6a24b5527a2a36c750de60465d04"
+    },
+    {
+      "path": "Kimberlina_spatial/predictions/track2_augmented_NearestObservedColumn_fold1.csv.gz",
+      "sha256": "7853219b13237afba540d328bdde5e871128d3f5a35182a8cff4034e20ec1d78"
+    },
+    {
+      "path": "Kimberlina_spatial/predictions/track2_augmented_NearestObservedColumn_fold2.csv.gz",
+      "sha256": "07675fc9dc69cc74a736cc79130649e416da7b268dffea35ac826a83cf410681"
+    },
+    {
+      "path": "Kimberlina_spatial/predictions/track2_augmented_NearestObservedColumn_fold3.csv.gz",
+      "sha256": "bad119a4dffdbd55d38cb298752b8427c51baa54aa5595ded1e5cf6929c072dc"
+    },
+    {
+      "path": "Kimberlina_spatial/predictions/track2_augmented_NearestObservedColumn_fold4.csv.gz",
+      "sha256": "26c4223076e57a252c58d6ab53c7558d000acd919aa6d2565f5fbd6be09cbed6"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "unit_metadata_only": [
+    {
+      "dataset": "Zhengzhou",
+      "interval_rows": 692,
+      "interfaces": 623,
+      "classification_points": 10390,
+      "all_numerical_inputs_identical": true
+    },
+    {
+      "dataset": "Kimberlina",
+      "interval_rows": 583,
+      "interfaces": 514,
+      "classification_points": 30336,
+      "all_numerical_inputs_identical": true
+    },
+    {
+      "dataset": "SyntheticControl",
+      "interval_rows": 315,
+      "interfaces": 315,
+      "classification_points": 24070,
+      "all_numerical_inputs_identical": true
+    }
+  ],
+  "new_prediction_files_verified": 80,
+  "new_neural_refits_verified": 20,
+  "main_predictions_retrained": false,
+  "original_main_comparisons_unchanged": true,
+  "new_analysis_type": "exploratory source-repair exclusion and paired-effect summaries"
+}

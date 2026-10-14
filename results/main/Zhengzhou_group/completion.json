@@ -1,0 +1,21 @@
+{
+  "protocol": "2.0",
+  "models_scored": 100,
+  "tracks": [
+    1,
+    2
+  ],
+  "modes": [
+    "raw",
+    "augmented"
+  ],
+  "folds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "status": "completed",
+  "metadata_sha256": "24809972bfc155af7cad8dfeb2d8d7b409a90eaa14e031904296fab5f43e0633"
+}
